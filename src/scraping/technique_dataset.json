@@ -1,0 +1,1025 @@
+{
+    "T1548": {
+        "Technique_ID": "T1548",
+        "Technique_Name": [
+            "Abuse Elevation Control Mechanism"
+        ],
+        "Description": [
+            "Adversaries may circumvent mechanisms designed to control elevate privileges to gain higher-level permissions. Most modern systems contain native elevation control mechanisms that are intended to limit privileges that a user can perform on a machine. Authorization has to be granted to specific users in order to perform tasks that can be considered of higher risk. An adversary can perform several methods to take advantage of built-in control mechanisms in order to escalate privileges on a system."
+        ]
+    },
+    "T1134": {
+        "Technique_ID": "T1134",
+        "Technique_Name": [
+            "Access Token Manipulation"
+        ],
+        "Description": [
+            "Adversaries may modify access tokens to operate under a different user or system security context to perform actions and bypass access controls. Windows uses access tokens to determine the ownership of a running process. A user can manipulate access tokens to make a running process appear as though it is the child of a different process or belongs to someone other than the user that started the process. When this occurs, the process also takes on the security context associated with the new token."
+        ]
+    },
+    "T1531": {
+        "Technique_ID": "T1531",
+        "Technique_Name": [
+            "Account Access Removal"
+        ],
+        "Description": [
+            "Adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users. Accounts may be deleted, locked, or manipulated (ex: changed credentials) to remove access to accounts. Adversaries may also subsequently log off and/or perform a System Shutdown/Reboot to set malicious changes into place."
+        ]
+    },
+    "T1087": {
+        "Technique_ID": "T1087",
+        "Technique_Name": [
+            "Account Discovery"
+        ],
+        "Description": [
+            "Adversaries may attempt to get a listing of accounts on a system or within an environment. This information can help adversaries determine which accounts exist to aid in follow-on behavior."
+        ]
+    },
+    "T1098": {
+        "Technique_ID": "T1098",
+        "Technique_Name": [
+            "Account Manipulation"
+        ],
+        "Description": [
+            "Adversaries may manipulate accounts to maintain access to victim systems. Account manipulation may consist of any action that preserves adversary access to a compromised account, such as modifying credentials or permission groups. These actions could also include account activity designed to subvert security policies, such as performing iterative password updates to bypass password duration policies and preserve the life of compromised credentials."
+        ]
+    },
+    "T1583": {
+        "Technique_ID": "T1583",
+        "Technique_Name": [
+            "Acquire Infrastructure"
+        ],
+        "Description": [
+            "Adversaries may buy, lease, or rent infrastructure that can be used during targeting. A wide variety of infrastructure exists for hosting and orchestrating adversary operations. Infrastructure solutions include physical or cloud servers, domains, and third-party web services. Additionally, botnets are available for rent or purchase."
+        ]
+    },
+    "T1595": {
+        "Technique_ID": "T1595",
+        "Technique_Name": [
+            "Active Scanning"
+        ],
+        "Description": [
+            "Adversaries may execute active reconnaissance scans to gather information that can be used during targeting. Active scans are those where the adversary probes victim infrastructure via network traffic, as opposed to other forms of reconnaissance that do not involve direct interaction."
+        ]
+    },
+    "T1557": {
+        "Technique_ID": "T1557",
+        "Technique_Name": [
+            "Adversary-in-the-Middle"
+        ],
+        "Description": [
+            "Adversaries may attempt to position themselves between two or more networked devices using an adversary-in-the-middle (AiTM) technique to support follow-on behaviors such as Network Sniffing or Transmitted Data Manipulation. By abusing features of common networking protocols that can determine the flow of network traffic (e.g. ARP, DNS, LLMNR, etc.), adversaries may force a device to communicate through an adversary controlled system so they can collect information or perform additional actions."
+        ]
+    },
+    "T1071": {
+        "Technique_ID": "T1071",
+        "Technique_Name": [
+            "Application Layer Protocol"
+        ],
+        "Description": [
+            "Adversaries may communicate using application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server."
+        ]
+    },
+    "T1010": {
+        "Technique_ID": "T1010",
+        "Technique_Name": [
+            "Application Window Discovery"
+        ],
+        "Description": [
+            "Adversaries may attempt to get a listing of open application windows. Window listings could convey information about how the system is used or give context to information collected by a keylogger."
+        ]
+    },
+    "T1560": {
+        "Technique_ID": "T1560",
+        "Technique_Name": [
+            "Archive Collected Data"
+        ],
+        "Description": [
+            "An adversary may compress and/or encrypt data that is collected prior to exfiltration. Compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. Encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender."
+        ]
+    },
+    "T1123": {
+        "Technique_ID": "T1123",
+        "Technique_Name": [
+            "Audio Capture"
+        ],
+        "Description": [
+            "An adversary can leverage a computer's peripheral devices (e.g., microphones and webcams) or applications (e.g., voice and video call services) to capture audio recordings for the purpose of listening into sensitive conversations to gather information."
+        ]
+    },
+    "T1119": {
+        "Technique_ID": "T1119",
+        "Technique_Name": [
+            "Automated Collection"
+        ],
+        "Description": [
+            "Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of a Command and Scripting Interpreter to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. In cloud-based environments, adversaries may also use cloud APIs, command line interfaces, or extract, transform, and load (ETL) services to automatically collect data. This functionality could also be built into remote access tools."
+        ]
+    },
+    "T1020": {
+        "Technique_ID": "T1020",
+        "Technique_Name": [
+            "Automated Exfiltration"
+        ],
+        "Description": [
+            "Adversaries may exfiltrate data, such as sensitive documents, through the use of automated processing after being gathered during Collection."
+        ]
+    },
+    "T1197": {
+        "Technique_ID": "T1197",
+        "Technique_Name": [
+            "BITS Jobs"
+        ],
+        "Description": [
+            "Adversaries may abuse BITS jobs to persistently execute or clean up after malicious payloads. Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through Component Object Model (COM). BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations."
+        ]
+    },
+    "T1547": {
+        "Technique_ID": "T1547",
+        "Technique_Name": [
+            "Boot or Logon Autostart Execution"
+        ],
+        "Description": [
+            "Adversaries may configure system settings to automatically execute a program during system boot or logon to maintain persistence or gain higher-level privileges on compromised systems. Operating systems may have mechanisms for automatically running a program on system boot or account logon. These mechanisms may include automatically executing programs that are placed in specially designated directories or are referenced by repositories that store configuration information, such as the Windows Registry. An adversary may achieve the same goal by modifying or extending features of the kernel."
+        ]
+    },
+    "T1037": {
+        "Technique_ID": "T1037",
+        "Technique_Name": [
+            "Boot or Logon Initialization Scripts"
+        ],
+        "Description": [
+            "Adversaries may use scripts automatically executed at boot or logon initialization to establish persistence. Initialization scripts can be used to perform administrative functions, which may often execute other programs or send information to an internal logging server. These scripts can vary based on operating system and whether applied locally or remotely."
+        ]
+    },
+    "T1217": {
+        "Technique_ID": "T1217",
+        "Technique_Name": [
+            "Browser Bookmark Discovery"
+        ],
+        "Description": [
+            "Adversaries may enumerate browser bookmarks to learn more about compromised hosts. Browser bookmarks may reveal personal information about users (ex: banking sites, interests, social media, etc.) as well as details about internal network resources such as servers, tools/dashboards, or other related infrastructure."
+        ]
+    },
+    "T1176": {
+        "Technique_ID": "T1176",
+        "Technique_Name": [
+            "Browser Extensions"
+        ],
+        "Description": [
+            "Adversaries may abuse Internet browser extensions to establish persistent access to victim systems. Browser extensions or plugins are small programs that can add functionality and customize aspects of Internet browsers. They can be installed directly or through a browser's app store and generally have access and permissions to everything that the browser can access."
+        ]
+    },
+    "T1185": {
+        "Technique_ID": "T1185",
+        "Technique_Name": [
+            "Browser Session Hijacking"
+        ],
+        "Description": [
+            "Adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques."
+        ]
+    },
+    "T1110": {
+        "Technique_ID": "T1110",
+        "Technique_Name": [
+            "Brute Force"
+        ],
+        "Description": [
+            "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Brute forcing passwords can take place via interaction with a service that will check the validity of those credentials or offline against previously acquired credential data, such as password hashes."
+        ]
+    },
+    "T1612": {
+        "Technique_ID": "T1612",
+        "Technique_Name": [
+            "Build Image on Host"
+        ],
+        "Description": [
+            "Adversaries may build a container image directly on a host to bypass defenses that monitor for the retrieval of malicious images from a public registry. A remote build request may be sent to the Docker API that includes a Dockerfile that pulls a vanilla base image, such as alpine, from a public or local registry and then builds a custom image upon it."
+        ]
+    },
+    "T1115": {
+        "Technique_ID": "T1115",
+        "Technique_Name": [
+            "Clipboard Data"
+        ],
+        "Description": [
+            "Adversaries may collect data stored in the clipboard from users copying information within or between applications."
+        ]
+    },
+    "T1580": {
+        "Technique_ID": "T1580",
+        "Technique_Name": [
+            "Cloud Infrastructure Discovery"
+        ],
+        "Description": [
+            "An adversary may attempt to discover infrastructure and resources that are available within an infrastructure-as-a-service (IaaS) environment. This includes compute service resources such as instances, virtual machines, and snapshots as well as resources of other services including the storage and database services."
+        ]
+    },
+    "T1538": {
+        "Technique_ID": "T1538",
+        "Technique_Name": [
+            "Cloud Service Dashboard"
+        ],
+        "Description": [
+            "An adversary may use a cloud service dashboard GUI with stolen credentials to gain useful information from an operational cloud environment, such as specific services, resources, and features. For example, the GCP Command Center can be used to view all assets, findings of potential security risks, and to run additional queries, such as finding public IP addresses and open ports."
+        ]
+    },
+    "T1526": {
+        "Technique_ID": "T1526",
+        "Technique_Name": [
+            "Cloud Service Discovery"
+        ],
+        "Description": [
+            "An adversary may attempt to enumerate the cloud services running on a system after gaining access. These methods can differ from platform-as-a-service (PaaS), to infrastructure-as-a-service (IaaS), or software-as-a-service (SaaS). Many services exist throughout the various cloud providers and can include Continuous Integration and Continuous Delivery (CI/CD), Lambda Functions, Azure AD, etc."
+        ]
+    },
+    "T1619": {
+        "Technique_ID": "T1619",
+        "Technique_Name": [
+            "Cloud Storage Object Discovery"
+        ],
+        "Description": [
+            "Adversaries may enumerate objects in cloud storage infrastructure. Adversaries may use this information during automated discovery to shape follow-on behaviors, including requesting all or specific objects from cloud storage.  Similar to File and Directory Discovery on a local host, after identifying available storage services (i.e. Cloud Infrastructure Discovery) adversaries may access the contents/objects stored in cloud infrastructure."
+        ]
+    },
+    "T1059": {
+        "Technique_ID": "T1059",
+        "Technique_Name": [
+            "Command and Scripting Interpreter"
+        ],
+        "Description": [
+            "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of Unix Shell while Windows installations include the Windows Command Shell and PowerShell."
+        ]
+    },
+    "T1092": {
+        "Technique_ID": "T1092",
+        "Technique_Name": [
+            "Communication Through Removable Media"
+        ],
+        "Description": [
+            "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by Replication Through Removable Media. Commands and files would be relayed from the disconnected system to the Internet-connected system to which the adversary has direct access."
+        ]
+    },
+    "T1586": {
+        "Technique_ID": "T1586",
+        "Technique_Name": [
+            "Compromise Accounts"
+        ],
+        "Description": [
+            "Adversaries may compromise accounts with services that can be used during targeting. For operations incorporating social engineering, the utilization of an online persona may be important. Rather than creating and cultivating accounts (i.e. Establish Accounts), adversaries may compromise existing accounts. Utilizing an existing persona may engender a level of trust in a potential victim if they have a relationship, or knowledge of, the compromised persona."
+        ]
+    },
+    "T1554": {
+        "Technique_ID": "T1554",
+        "Technique_Name": [
+            "Compromise Client Software Binary"
+        ],
+        "Description": [
+            "Adversaries may modify client software binaries to establish persistent access to systems. Client software enables users to access services provided by a server. Common client software types are SSH clients, FTP clients, email clients, and web browsers."
+        ]
+    },
+    "T1584": {
+        "Technique_ID": "T1584",
+        "Technique_Name": [
+            "Compromise Infrastructure"
+        ],
+        "Description": [
+            "Adversaries may compromise third-party infrastructure that can be used during targeting. Infrastructure solutions include physical or cloud servers, domains, and third-party web and DNS services. Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it during other phases of the adversary lifecycle. Additionally, adversaries may compromise numerous machines to form a botnet they can leverage."
+        ]
+    },
+    "T1609": {
+        "Technique_ID": "T1609",
+        "Technique_Name": [
+            "Container Administration Command"
+        ],
+        "Description": [
+            "Adversaries may abuse a container administration service to execute commands within a container. A container administration service such as the Docker daemon, the Kubernetes API server, or the kubelet may allow remote management of containers within an environment."
+        ]
+    },
+    "T1613": {
+        "Technique_ID": "T1613",
+        "Technique_Name": [
+            "Container and Resource Discovery"
+        ],
+        "Description": [
+            "Adversaries may attempt to discover containers and other resources that are available within a containers environment. Other resources may include images, deployments, pods, nodes, and other information such as the status of a cluster."
+        ]
+    },
+    "T1136": {
+        "Technique_ID": "T1136",
+        "Technique_Name": [
+            "Create Account"
+        ],
+        "Description": [
+            "Adversaries may create an account to maintain access to victim systems. With a sufficient level of access, creating such accounts may be used to establish secondary credentialed access that do not require persistent remote access tools to be deployed on the system."
+        ]
+    },
+    "T1543": {
+        "Technique_ID": "T1543",
+        "Technique_Name": [
+            "Create or Modify System Process"
+        ],
+        "Description": [
+            "Adversaries may create or modify system-level processes to repeatedly execute malicious payloads as part of persistence. When operating systems boot up, they can start processes that perform background system functions. On Windows and Linux, these system processes are referred to as services. On macOS, launchd processes known as Launch Daemon and Launch Agent are run to finish system initialization and load user specific parameters."
+        ]
+    },
+    "T1555": {
+        "Technique_ID": "T1555",
+        "Technique_Name": [
+            "Credentials from Password Stores"
+        ],
+        "Description": [
+            "Adversaries may search for common password storage locations to obtain user credentials. Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications that store passwords to make it easier for users manage and maintain. Once credentials are obtained, they can be used to perform lateral movement and access restricted information."
+        ]
+    },
+    "T1485": {
+        "Technique_ID": "T1485",
+        "Technique_Name": [
+            "Data Destruction"
+        ],
+        "Description": [
+            "Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. Data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives. Common operating system file deletion commands such as del and rm often only remove pointers to files without wiping the contents of the files themselves, making the files recoverable by proper forensic methodology. This behavior is distinct from Disk Content Wipe and Disk Structure Wipe because individual files are destroyed rather than sections of a storage disk or the disk's logical structure."
+        ]
+    },
+    "T1132": {
+        "Technique_ID": "T1132",
+        "Technique_Name": [
+            "Data Encoding"
+        ],
+        "Description": [
+            "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.  Some data encoding systems may also result in data compression, such as gzip."
+        ]
+    },
+    "T1486": {
+        "Technique_ID": "T1486",
+        "Technique_Name": [
+            "Data Encrypted for Impact"
+        ],
+        "Description": [
+            "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted."
+        ]
+    },
+    "T1530": {
+        "Technique_ID": "T1530",
+        "Technique_Name": [
+            "Data from Cloud Storage Object"
+        ],
+        "Description": [
+            "Adversaries may access data objects from improperly secured cloud storage."
+        ]
+    },
+    "T1602": {
+        "Technique_ID": "T1602",
+        "Technique_Name": [
+            "Data from Configuration Repository"
+        ],
+        "Description": [
+            "Adversaries may collect data related to managed devices from configuration repositories. Configuration repositories are used by management systems in order to configure, manage, and control data on remote systems. Configuration repositories may also facilitate remote access and administration of devices."
+        ]
+    },
+    "T1213": {
+        "Technique_ID": "T1213",
+        "Technique_Name": [
+            "Data from Information Repositories"
+        ],
+        "Description": [
+            "Adversaries may leverage information repositories to mine valuable information. Information repositories are tools that allow for storage of information, typically to facilitate collaboration or information sharing between users, and can store a wide variety of data that may aid adversaries in further objectives, or direct access to the target information. Adversaries may also abuse external sharing features to share sensitive documents with recipients outside of the organization."
+        ]
+    },
+    "T1005": {
+        "Technique_ID": "T1005",
+        "Technique_Name": [
+            "Data from Local System"
+        ],
+        "Description": [
+            "Adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to Exfiltration."
+        ]
+    },
+    "T1039": {
+        "Technique_ID": "T1039",
+        "Technique_Name": [
+            "Data from Network Shared Drive"
+        ],
+        "Description": [
+            "Adversaries may search network shares on computers they have compromised to find files of interest. Sensitive data can be collected from remote systems via shared network drives (host shared directory, network file server, etc.) that are accessible from the current system prior to Exfiltration. Interactive command shells may be in use, and common functionality within cmd may be used to gather information."
+        ]
+    },
+    "T1025": {
+        "Technique_ID": "T1025",
+        "Technique_Name": [
+            "Data from Removable Media"
+        ],
+        "Description": [
+            "Adversaries may search connected removable media on computers they have compromised to find files of interest. Sensitive data can be collected from any removable media (optical disk drive, USB memory, etc.) connected to the compromised system prior to Exfiltration. Interactive command shells may be in use, and common functionality within cmd may be used to gather information."
+        ]
+    },
+    "T1565": {
+        "Technique_ID": "T1565",
+        "Technique_Name": [
+            "Data Manipulation"
+        ],
+        "Description": [
+            "Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity, thus threatening the integrity of the data. By manipulating data, adversaries may attempt to affect a business process, organizational understanding, or decision making."
+        ]
+    },
+    "T1001": {
+        "Technique_ID": "T1001",
+        "Technique_Name": [
+            "Data Obfuscation"
+        ],
+        "Description": [
+            "Adversaries may obfuscate command and control traffic to make it more difficult to detect. Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating legitimate protocols."
+        ]
+    },
+    "T1074": {
+        "Technique_ID": "T1074",
+        "Technique_Name": [
+            "Data Staged"
+        ],
+        "Description": [
+            "Adversaries may stage collected data in a central location or directory prior to Exfiltration. Data may be kept in separate files or combined into one file through techniques such as Archive Collected Data. Interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location."
+        ]
+    },
+    "T1030": {
+        "Technique_ID": "T1030",
+        "Technique_Name": [
+            "Data Transfer Size Limits"
+        ],
+        "Description": [
+            "An adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. This approach may be used to avoid triggering network data transfer threshold alerts."
+        ]
+    },
+    "T1622": {
+        "Technique_ID": "T1622",
+        "Technique_Name": [
+            "Debugger Evasion"
+        ],
+        "Description": [
+            "Adversaries may employ various means to detect and avoid debuggers. Debuggers are typically used by defenders to trace and/or analyze the execution of potential malware payloads."
+        ]
+    },
+    "T1491": {
+        "Technique_ID": "T1491",
+        "Technique_Name": [
+            "Defacement"
+        ],
+        "Description": [
+            "Adversaries may modify visual content available internally or externally to an enterprise network, thus affecting the integrity of the original content. Reasons for Defacement include delivering messaging, intimidation, or claiming (possibly false) credit for an intrusion. Disturbing or offensive images may be used as a part of Defacement in order to cause user discomfort, or to pressure compliance with accompanying messages."
+        ]
+    },
+    "T1140": {
+        "Technique_ID": "T1140",
+        "Technique_Name": [
+            "Deobfuscate/Decode Files or Information"
+        ],
+        "Description": [
+            "Adversaries may use Obfuscated Files or Information to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware or by using utilities present on the system."
+        ]
+    },
+    "T1610": {
+        "Technique_ID": "T1610",
+        "Technique_Name": [
+            "Deploy Container"
+        ],
+        "Description": [
+            "Adversaries may deploy a container into an environment to facilitate execution or evade defenses. In some cases, adversaries may deploy a new container to execute processes associated with a particular image or deployment, such as processes that execute or download malware. In others, an adversary may deploy a new container configured without network rules, user limitations, etc. to bypass existing defenses within the environment."
+        ]
+    },
+    "T1587": {
+        "Technique_ID": "T1587",
+        "Technique_Name": [
+            "Develop Capabilities"
+        ],
+        "Description": [
+            "Adversaries may build capabilities that can be used during targeting. Rather than purchasing, freely downloading, or stealing capabilities, adversaries may develop their own capabilities in-house. This is the process of identifying development requirements and building solutions such as malware, exploits, and self-signed certificates. Adversaries may develop capabilities to support their operations throughout numerous phases of the adversary lifecycle."
+        ]
+    },
+    "T1006": {
+        "Technique_ID": "T1006",
+        "Technique_Name": [
+            "Direct Volume Access"
+        ],
+        "Description": [
+            "Adversaries may directly access a volume to bypass file access controls and file system monitoring. Windows allows programs to have direct access to logical volumes. Programs with direct access may read and write files directly from the drive by analyzing file system data structures. This technique bypasses Windows file access controls as well as file system monitoring tools."
+        ]
+    },
+    "T1561": {
+        "Technique_ID": "T1561",
+        "Technique_Name": [
+            "Disk Wipe"
+        ],
+        "Description": [
+            "Adversaries may wipe or corrupt raw disk data on specific systems or in large numbers in a network to interrupt availability to system and network resources. With direct write access to a disk, adversaries may attempt to overwrite portions of disk data. Adversaries may opt to wipe arbitrary portions of disk data and/or wipe disk structures like the master boot record (MBR). A complete wipe of all disk sectors may be attempted."
+        ]
+    },
+    "T1484": {
+        "Technique_ID": "T1484",
+        "Technique_Name": [
+            "Domain Policy Modification"
+        ],
+        "Description": [
+            "Adversaries may modify the configuration settings of a domain to evade defenses and/or escalate privileges in domain environments. Domains provide a centralized means of managing how computer resources (ex: computers, user accounts) can act, and interact with each other, on a network. The policy of the domain also includes configuration settings that may apply between domains in a multi-domain/forest environment. Modifications to domain settings may include altering domain Group Policy Objects (GPOs) or changing trust settings for domains, including federation trusts."
+        ]
+    },
+    "T1482": {
+        "Technique_ID": "T1482",
+        "Technique_Name": [
+            "Domain Trust Discovery"
+        ],
+        "Description": [
+            "Adversaries may attempt to gather information on domain trust relationships that may be used to identify lateral movement opportunities in Windows multi-domain/forest environments. Domain trusts provide a mechanism for a domain to allow access to resources based on the authentication procedures of another domain. Domain trusts allow the users of the trusted domain to access resources in the trusting domain. The information discovered may help the adversary conduct SID-History Injection, Pass the Ticket, and Kerberoasting. Domain trusts can be enumerated using the DSEnumerateDomainTrusts() Win32 API call, .NET methods, and LDAP. The Windows utility Nltest is known to be used by adversaries to enumerate domain trusts."
+        ]
+    },
+    "T1189": {
+        "Technique_ID": "T1189",
+        "Technique_Name": [
+            "Drive-by Compromise"
+        ],
+        "Description": [
+            "Adversaries may gain access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is typically targeted for exploitation, but adversaries may also use compromised websites for non-exploitation behavior such as acquiring Application Access Token."
+        ]
+    },
+    "T1568": {
+        "Technique_ID": "T1568",
+        "Technique_Name": [
+            "Dynamic Resolution"
+        ],
+        "Description": [
+            "Adversaries may dynamically establish connections to command and control infrastructure to evade common detections and remediations. This may be achieved by using malware that shares a common algorithm with the infrastructure the adversary uses to receive the malware's communications. These calculations can be used to dynamically adjust parameters such as the domain name, IP address, or port number the malware uses for command and control."
+        ]
+    },
+    "T1114": {
+        "Technique_ID": "T1114",
+        "Technique_Name": [
+            "Email Collection"
+        ],
+        "Description": [
+            "Adversaries may target user email to collect sensitive information. Emails may contain sensitive data, including trade secrets or personal information, that can prove valuable to adversaries. Adversaries can collect or forward email from mail servers or clients."
+        ]
+    },
+    "T1573": {
+        "Technique_ID": "T1573",
+        "Technique_Name": [
+            "Encrypted Channel"
+        ],
+        "Description": [
+            "Adversaries may employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if secret keys are encoded and/or generated within malware samples/configuration files."
+        ]
+    },
+    "T1499": {
+        "Technique_ID": "T1499",
+        "Technique_Name": [
+            "Endpoint Denial of Service"
+        ],
+        "Description": [
+            "Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade or block the availability of services to users. Endpoint DoS can be performed by exhausting the system resources those services are hosted on or exploiting the system to cause a persistent crash condition. Example services include websites, email services, DNS, and web-based applications. Adversaries have been observed conducting DoS attacks for political purposes and to support other malicious activities, including distraction, hacktivism, and extortion."
+        ]
+    },
+    "T1611": {
+        "Technique_ID": "T1611",
+        "Technique_Name": [
+            "Escape to Host"
+        ],
+        "Description": [
+            "Adversaries may break out of a container to gain access to the underlying host. This can allow an adversary access to other containerized resources from the host level or to the host itself. In principle, containerized resources should provide a clear separation of application functionality and be isolated from the host environment."
+        ]
+    },
+    "T1585": {
+        "Technique_ID": "T1585",
+        "Technique_Name": [
+            "Establish Accounts"
+        ],
+        "Description": [
+            "Adversaries may create and cultivate accounts with services that can be used during targeting. Adversaries can create accounts that can be used to build a persona to further operations. Persona development consists of the development of public information, presence, history and appropriate affiliations. This development could be applied to social media, website, or other publicly available information that could be referenced and scrutinized for legitimacy over the course of an operation using that persona or identity."
+        ]
+    },
+    "T1546": {
+        "Technique_ID": "T1546",
+        "Technique_Name": [
+            "Event Triggered Execution"
+        ],
+        "Description": [
+            "Adversaries may establish persistence and/or elevate privileges using system mechanisms that trigger execution based on specific events. Various operating systems have means to monitor and subscribe to events such as logons or other user activity such as running specific applications/binaries."
+        ]
+    },
+    "T1480": {
+        "Technique_ID": "T1480",
+        "Technique_Name": [
+            "Execution Guardrails"
+        ],
+        "Description": [
+            "Adversaries may use execution guardrails to constrain execution or actions based on adversary supplied and environment specific conditions that are expected to be present on the target. Guardrails ensure that a payload only executes against an intended target and reduces collateral damage from an adversary\u2019s campaign. Values an adversary can provide about a target system or environment to use as guardrails may include specific network share names, attached physical devices, files, joined Active Directory (AD) domains, and local/external IP addresses."
+        ]
+    },
+    "T1048": {
+        "Technique_ID": "T1048",
+        "Technique_Name": [
+            "Exfiltration Over Alternative Protocol"
+        ],
+        "Description": [
+            "Adversaries may steal data by exfiltrating it over a different protocol than that of the existing command and control channel. The data may also be sent to an alternate network location from the main command and control server."
+        ]
+    },
+    "T1041": {
+        "Technique_ID": "T1041",
+        "Technique_Name": [
+            "Exfiltration Over C2 Channel"
+        ],
+        "Description": [
+            "Adversaries may steal data by exfiltrating it over an existing command and control channel. Stolen data is encoded into the normal communications channel using the same protocol as command and control communications."
+        ]
+    },
+    "T1011": {
+        "Technique_ID": "T1011",
+        "Technique_Name": [
+            "Exfiltration Over Other Network Medium"
+        ],
+        "Description": [
+            "Adversaries may attempt to exfiltrate data over a different network medium than the command and control channel. If the command and control network is a wired Internet connection, the exfiltration may occur, for example, over a WiFi connection, modem, cellular data connection, Bluetooth, or another radio frequency (RF) channel."
+        ]
+    },
+    "T1052": {
+        "Technique_ID": "T1052",
+        "Technique_Name": [
+            "Exfiltration Over Physical Medium"
+        ],
+        "Description": [
+            "Adversaries may attempt to exfiltrate data via a physical medium, such as a removable drive. In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a physical medium or device introduced by a user. Such media could be an external hard drive, USB drive, cellular phone, MP3 player, or other removable storage and processing device. The physical medium or device could be used as the final exfiltration point or to hop between otherwise disconnected systems."
+        ]
+    },
+    "T1567": {
+        "Technique_ID": "T1567",
+        "Technique_Name": [
+            "Exfiltration Over Web Service"
+        ],
+        "Description": [
+            "Adversaries may use an existing, legitimate external Web service to exfiltrate data rather than their primary command and control channel. Popular Web services acting as an exfiltration mechanism may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to compromise. Firewall rules may also already exist to permit traffic to these services."
+        ]
+    },
+    "T1190": {
+        "Technique_ID": "T1190",
+        "Technique_Name": [
+            "Exploit Public-Facing Application"
+        ],
+        "Description": [
+            "Adversaries may attempt to take advantage of a weakness in an Internet-facing computer or program using software, data, or commands in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. These applications are often websites, but can include databases (like SQL), standard services (like SMB or SSH), network device administration and management protocols (like SNMP and Smart Install), and any other applications with Internet accessible open sockets, such as web servers and related services. Depending on the flaw being exploited this may include Exploitation for Defense Evasion."
+        ]
+    },
+    "T1203": {
+        "Technique_ID": "T1203",
+        "Technique_Name": [
+            "Exploitation for Client Execution"
+        ],
+        "Description": [
+            "Adversaries may exploit software vulnerabilities in client applications to execute code. Vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. Adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. Oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. Users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility."
+        ]
+    },
+    "T1212": {
+        "Technique_ID": "T1212",
+        "Technique_Name": [
+            "Exploitation for Credential Access"
+        ],
+        "Description": [
+            "Adversaries may exploit software vulnerabilities in an attempt to collect credentials. Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0Credentialing and authentication mechanisms may be targeted for exploitation by adversaries as a means to gain access to useful credentials or circumvent the process to gain access to systems. One example of this is MS14-068, which targets Kerberos and can be used to forge Kerberos tickets using domain user permissions. Exploitation for credential access may also result in Privilege Escalation depending on the process targeted or credentials obtained."
+        ]
+    },
+    "T1211": {
+        "Technique_ID": "T1211",
+        "Technique_Name": [
+            "Exploitation for Defense Evasion"
+        ],
+        "Description": [
+            "Adversaries may exploit a system or application vulnerability to bypass security features. Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0Vulnerabilities may exist in defensive security software that can be used to disable or circumvent them."
+        ]
+    },
+    "T1068": {
+        "Technique_ID": "T1068",
+        "Technique_Name": [
+            "Exploitation for Privilege Escalation"
+        ],
+        "Description": [
+            "Adversaries may exploit software vulnerabilities in an attempt to elevate privileges. Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. Security constructs such as permission levels will often hinder access to information and use of certain techniques, so adversaries will likely need to perform privilege escalation to include use of software exploitation to circumvent those restrictions."
+        ]
+    },
+    "T1210": {
+        "Technique_ID": "T1210",
+        "Technique_Name": [
+            "Exploitation of Remote Services"
+        ],
+        "Description": [
+            "Adversaries may exploit remote services to gain unauthorized access to internal systems once inside of a network. Exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0A common goal for post-compromise exploitation of remote services is for lateral movement to enable access to a remote system."
+        ]
+    },
+    "T1133": {
+        "Technique_ID": "T1133",
+        "Technique_Name": [
+            "External Remote Services"
+        ],
+        "Description": [
+            "Adversaries may leverage external-facing remote services to initially access and/or persist within a network. Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as Windows Remote Management and VNC can also be used externally."
+        ]
+    },
+    "T1008": {
+        "Technique_ID": "T1008",
+        "Technique_Name": [
+            "Fallback Channels"
+        ],
+        "Description": [
+            "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds."
+        ]
+    },
+    "T1083": {
+        "Technique_ID": "T1083",
+        "Technique_Name": [
+            "File and Directory Discovery"
+        ],
+        "Description": [
+            "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from File and Directory Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions."
+        ]
+    },
+    "T1222": {
+        "Technique_ID": "T1222",
+        "Technique_Name": [
+            "File and Directory Permissions Modification"
+        ],
+        "Description": [
+            "Adversaries may modify file or directory permissions/attributes to evade access control lists (ACLs) and access protected files. File and directory permissions are commonly managed by ACLs configured by the file or directory owner, or users with the appropriate permissions. File and directory ACL implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.)."
+        ]
+    },
+    "T1495": {
+        "Technique_ID": "T1495",
+        "Technique_Name": [
+            "Firmware Corruption"
+        ],
+        "Description": [
+            "Adversaries may overwrite or corrupt the flash memory contents of system BIOS or other firmware in devices attached to a system in order to render them inoperable or unable to boot, thus denying the availability to use the devices and/or the system. Firmware is software that is loaded and executed from non-volatile memory on hardware devices in order to initialize and manage device functionality. These devices could include the motherboard, hard drive, or video cards."
+        ]
+    },
+    "T1187": {
+        "Technique_ID": "T1187",
+        "Technique_Name": [
+            "Forced Authentication"
+        ],
+        "Description": [
+            "Adversaries may gather credential material by invoking or forcing a user to automatically provide authentication information through a mechanism in which they can intercept."
+        ]
+    },
+    "T1606": {
+        "Technique_ID": "T1606",
+        "Technique_Name": [
+            "Forge Web Credentials"
+        ],
+        "Description": [
+            "Adversaries may forge credential materials that can be used to gain access to web applications or Internet services. Web applications and services (hosted in cloud SaaS environments or on-premise servers) often use session cookies, tokens, or other materials to authenticate and authorize user access."
+        ]
+    },
+    "T1592": {
+        "Technique_ID": "T1592",
+        "Technique_Name": [
+            "Gather Victim Host Information"
+        ],
+        "Description": [
+            "Adversaries may gather information about the victim's hosts that can be used during targeting. Information about hosts may include a variety of details, including administrative data (ex: name, assigned IP, functionality, etc.) as well as specifics regarding its configuration (ex: operating system, language, etc.)."
+        ]
+    },
+    "T1589": {
+        "Technique_ID": "T1589",
+        "Technique_Name": [
+            "Gather Victim Identity Information"
+        ],
+        "Description": [
+            "Adversaries may gather information about the victim's identity that can be used during targeting. Information about identities may include a variety of details, including personal data (ex: employee names, email addresses, etc.) as well as sensitive details such as credentials."
+        ]
+    },
+    "T1590": {
+        "Technique_ID": "T1590",
+        "Technique_Name": [
+            "Gather Victim Network Information"
+        ],
+        "Description": [
+            "Adversaries may gather information about the victim's networks that can be used during targeting. Information about networks may include a variety of details, including administrative data (ex: IP ranges, domain names, etc.) as well as specifics regarding its topology and operations."
+        ]
+    },
+    "T1591": {
+        "Technique_ID": "T1591",
+        "Technique_Name": [
+            "Gather Victim Org Information"
+        ],
+        "Description": [
+            "Adversaries may gather information about the victim's organization that can be used during targeting. Information about an organization may include a variety of details, including the names of divisions/departments, specifics of business operations, as well as the roles and responsibilities of key employees."
+        ]
+    },
+    "T1615": {
+        "Technique_ID": "T1615",
+        "Technique_Name": [
+            "Group Policy Discovery"
+        ],
+        "Description": [
+            "Adversaries may gather information on Group Policy settings to identify paths for privilege escalation, security measures applied within a domain, and to discover patterns in domain objects that can be manipulated or used to blend in the environment. Group Policy allows for centralized management of user and computer settings in Active Directory (AD). Group policy objects (GPOs) are containers for group policy settings made up of files stored within a predicable network path \\\\SYSVOL\\\\Policies\\."
+        ]
+    },
+    "T1200": {
+        "Technique_ID": "T1200",
+        "Technique_Name": [
+            "Hardware Additions"
+        ],
+        "Description": [
+            "Adversaries may introduce computer accessories, networking hardware, or other computing devices into a system or network that can be used as a vector to gain access. Rather than just connecting and distributing payloads via removable storage (i.e. Replication Through Removable Media), more robust hardware additions can be used to introduce new functionalities and/or features into a system that can then be abused."
+        ]
+    },
+    "T1564": {
+        "Technique_ID": "T1564",
+        "Technique_Name": [
+            "Hide Artifacts"
+        ],
+        "Description": [
+            "Adversaries may attempt to hide artifacts associated with their behaviors to evade detection. Operating systems may have features to hide various artifacts, such as important system files and administrative task execution, to avoid disrupting user work environments and prevent users from changing files or features on the system. Adversaries may abuse these features to hide artifacts such as files, directories, user accounts, or other system activity to evade detection."
+        ]
+    },
+    "T1574": {
+        "Technique_ID": "T1574",
+        "Technique_Name": [
+            "Hijack Execution Flow"
+        ],
+        "Description": [
+            "Adversaries may execute their own malicious payloads by hijacking the way operating systems run programs. Hijacking execution flow can be for the purposes of persistence, since this hijacked execution may reoccur over time. Adversaries may also use these mechanisms to elevate privileges or evade defenses, such as application control or other restrictions on execution."
+        ]
+    },
+    "T1562": {
+        "Technique_ID": "T1562",
+        "Technique_Name": [
+            "Impair Defenses"
+        ],
+        "Description": [
+            "Adversaries may maliciously modify components of a victim environment in order to hinder or disable defensive mechanisms. This not only involves impairing preventative defenses, such as firewalls and anti-virus, but also detection capabilities that defenders can use to audit activity and identify malicious behavior. This may also span both native defenses as well as supplemental capabilities installed by users and administrators."
+        ]
+    },
+    "T1525": {
+        "Technique_ID": "T1525",
+        "Technique_Name": [
+            "Implant Internal Image"
+        ],
+        "Description": [
+            "Adversaries may implant cloud or container images with malicious code to establish persistence after gaining access to an environment. Amazon Web Services (AWS) Amazon Machine Images (AMIs), Google Cloud Platform (GCP) Images, and Azure Images as well as popular container runtimes such as Docker can be implanted or backdoored. Unlike Upload Malware, this technique focuses on adversaries implanting an image in a registry within a victim\u2019s environment. Depending on how the infrastructure is provisioned, this could provide persistent access if the infrastructure provisioning tool is instructed to always use the latest image."
+        ]
+    },
+    "T1070": {
+        "Technique_ID": "T1070",
+        "Technique_Name": [
+            "Indicator Removal on Host"
+        ],
+        "Description": [
+            "Adversaries may delete or modify artifacts generated on a host system to remove evidence of their presence or hinder defenses. Various artifacts may be created by an adversary or something that can be attributed to an adversary\u2019s actions. Typically these artifacts are used as defensive indicators related to monitored events, such as strings from downloaded files, logs that are generated from user actions, and other data analyzed by defenders. Location, format, and type of artifact (such as command or login history) are often specific to each platform."
+        ]
+    },
+    "T1202": {
+        "Technique_ID": "T1202",
+        "Technique_Name": [
+            "Indirect Command Execution"
+        ],
+        "Description": [
+            "Adversaries may abuse utilities that allow for command execution to bypass security restrictions that limit the use of command-line interpreters. Various Windows utilities may be used to execute commands, possibly without invoking cmd. For example, Forfiles, the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a Command and Scripting Interpreter, Run window, or via scripts."
+        ]
+    },
+    "T1105": {
+        "Technique_ID": "T1105",
+        "Technique_Name": [
+            "Ingress Tool Transfer"
+        ],
+        "Description": [
+            "Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. Lateral Tool Transfer)."
+        ]
+    },
+    "T1490": {
+        "Technique_ID": "T1490",
+        "Technique_Name": [
+            "Inhibit System Recovery"
+        ],
+        "Description": [
+            "Adversaries may delete or remove built-in operating system data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. This may deny access to available backups and recovery options."
+        ]
+    },
+    "T1056": {
+        "Technique_ID": "T1056",
+        "Technique_Name": [
+            "Input Capture"
+        ],
+        "Description": [
+            "Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. Credential API Hooking) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. Web Portal Capture)."
+        ]
+    },
+    "T1559": {
+        "Technique_ID": "T1559",
+        "Technique_Name": [
+            "Inter-Process Communication"
+        ],
+        "Description": [
+            "Adversaries may abuse inter-process communication (IPC) mechanisms for local code or command execution. IPC is typically used by processes to share data, communicate with each other, or synchronize execution. IPC is also commonly used to avoid situations such as deadlocks, which occurs when processes are stuck in a cyclic waiting pattern."
+        ]
+    },
+    "T1534": {
+        "Technique_ID": "T1534",
+        "Technique_Name": [
+            "Internal Spearphishing"
+        ],
+        "Description": [
+            "Adversaries may use internal spearphishing to gain access to additional information or exploit other users within the same organization after they already have access to accounts or systems within the environment. Internal spearphishing is multi-staged campaign where an email account is owned either by controlling the user's device with previously installed malware or by compromising the account credentials of the user. Adversaries attempt to take advantage of a trusted internal account to increase the likelihood of tricking the target into falling for the phish attempt."
+        ]
+    },
+    "T1570": {
+        "Technique_ID": "T1570",
+        "Technique_Name": [
+            "Lateral Tool Transfer"
+        ],
+        "Description": [
+            "Adversaries may transfer tools or other files between systems in a compromised environment. Once brought into the victim environment (i.e. Ingress Tool Transfer) files may then be copied from one system to another to stage adversary tools or other files over the course of an operation. Adversaries may copy files between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over SMB/Windows Admin Shares to connected network shares or with authenticated connections via Remote Desktop Protocol."
+        ]
+    },
+    "T1036": {
+        "Technique_ID": "T1036",
+        "Technique_Name": [
+            "Masquerading"
+        ],
+        "Description": [
+            "Adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. Masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. This may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names."
+        ]
+    },
+    "T1556": {
+        "Technique_ID": "T1556",
+        "Technique_Name": [
+            "Modify Authentication Process"
+        ],
+        "Description": [
+            "Adversaries may modify authentication mechanisms and processes to access user credentials or enable otherwise unwarranted access to accounts. The authentication process is handled by mechanisms, such as the Local Security Authentication Server (LSASS) process and the Security Accounts Manager (SAM) on Windows, pluggable authentication modules (PAM) on Unix-based systems, and authorization plugins on MacOS systems, responsible for gathering, storing, and validating credentials. By modifying an authentication process, an adversary may be able to authenticate to a service or system without using Valid Accounts."
+        ]
+    },
+    "T1578": {
+        "Technique_ID": "T1578",
+        "Technique_Name": [
+            "Modify Cloud Compute Infrastructure"
+        ],
+        "Description": [
+            "An adversary may attempt to modify a cloud account's compute service infrastructure to evade defenses. A modification to the compute service infrastructure can include the creation, deletion, or modification of one or more components such as compute instances, virtual machines, and snapshots."
+        ]
+    },
+    "T1112": {
+        "Technique_ID": "T1112",
+        "Technique_Name": [
+            "Modify Registry"
+        ],
+        "Description": [
+            "Adversaries may interact with the Windows Registry to hide configuration information within Registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution."
+        ]
+    },
+    "T1601": {
+        "Technique_ID": "T1601",
+        "Technique_Name": [
+            "Modify System Image"
+        ],
+        "Description": [
+            "Adversaries may make changes to the operating system of embedded network devices to weaken defenses and provide new capabilities for themselves.  On such devices, the operating systems are typically monolithic and most of the device functionality and capabilities are contained within a single file."
+        ]
+    },
+    "T1111": {
+        "Technique_ID": "T1111",
+        "Technique_Name": [
+            "Multi-Factor Authentication Interception"
+        ],
+        "Description": [
+            "Adversaries may target multi-factor authentication (MFA) mechanisms, (I.e., smart cards, token generators, etc.) to gain access to credentials that can be used to access systems, services, and network resources. Use of MFA is recommended and provides a higher level of security than user names and passwords alone, but organizations should be aware of techniques that could be used to intercept and bypass these security mechanisms."
+        ]
+    },
+    "T1621": {
+        "Technique_ID": "T1621",
+        "Technique_Name": [
+            "Multi-Factor Authentication Request Generation"
+        ],
+        "Description": [
+            "Adversaries may attempt to bypass multi-factor authentication (MFA) mechanisms and gain access to accounts by generating MFA requests sent to users."
+        ]
+    },
+    "T1104": {
+        "Technique_ID": "T1104",
+        "Technique_Name": [
+            "Multi-Stage Channels"
+        ],
+        "Description": [
+            "Adversaries may create multiple stages for command and control that are employed under different conditions or for certain functions. Use of multiple stages may obfuscate the command and control channel to make detection more difficult."
+        ]
+    },
+    "T1106": {
+        "Technique_ID": "T1106",
+        "Technique_Name": [
+            "Native API"
+        ],
+        "Description": [
+            "Adversaries may interact with the native OS application programming interface (API) to execute behaviors. Native APIs provide a controlled means of calling low-level OS services within the kernel, such as those involving hardware/devices, memory, and processes. These native APIs are leveraged by the OS during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations."
+        ]
+    },
+    "T1599": {
+        "Technique_ID": "T1599",
+        "Technique_Name": [
+            "Network Boundary Bridging"
+        ],
+        "Description": [
+            "Adversaries may bridge network boundaries by compromising perimeter network devices or internal devices responsible for network segmentation. Breaching these devices may enable an adversary to 

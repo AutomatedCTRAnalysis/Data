@@ -1,0 +1,331 @@
+,url,mitre_domain,tactic_name,tech_name,tech_id
+0,https://capec.mitre.org/data/definitions/578.html,['enterprise-attack'],['defense-evasion'],"['Disabling Security Tools', 'Disable or Modify Tools']","['T1089', 'T1562.001']"
+1,https://capec.mitre.org/data/definitions/163.html,['enterprise-attack'],['initial-access'],"['Spearphishing Attachment', 'Spearphishing Link', 'Spearphishing Attachment', 'Spearphishing via Service', 'Spearphishing via Service', 'Spearphishing Link']","['T1566.001', 'T1192', 'T1193', 'T1194', 'T1566.003', 'T1566.002']"
+2,https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spoofing-protection?view=o365-worldwide,['enterprise-attack'],"['initial-access', 'reconnaissance']","['Spearphishing Attachment', 'Spearphishing Attachment', 'Phishing', 'Phishing for Information', 'Spearphishing Link', 'Spearphishing Link']","['T1566.001', 'T1598.002', 'T1566', 'T1598', 'T1566.002', 'T1598.003']"
+3,https://msdn.microsoft.com/library/windows/desktop/ms680573.aspx,['enterprise-attack'],"['execution', 'lateral-movement', 'defense-evasion', 'persistence']","['Component Object Model', 'Distributed Component Object Model', 'Component Object Model and Distributed COM', 'BITS Jobs']","['T1559.001', 'T1021.003', 'T1175', 'T1197']"
+4,https://googleprojectzero.blogspot.com/2018/04/windows-exploitation-tricks-exploiting.html,['enterprise-attack'],"['execution', 'lateral-movement']","['Component Object Model', 'Component Object Model and Distributed COM']","['T1559.001', 'T1175']"
+5,https://capec.mitre.org/data/definitions/471.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['DLL Search Order Hijacking', 'DLL Search Order Hijacking', 'Dylib Hijacking', 'Dylib Hijacking']","['T1574.001', 'T1038', 'T1157', 'T1574.004']"
+6,https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order?redirectedfrom=MSDN,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1574.001']
+7,https://docs.microsoft.com/en-us/security-updates/securityadvisories/2010/2269637,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1574.001']
+8,https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-redirection?redirectedfrom=MSDN,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1574.001']
+9,https://msdn.microsoft.com/en-US/library/aa375365,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['DLL Search Order Hijacking', 'DLL Search Order Hijacking']","['T1574.001', 'T1038']"
+10,https://capec.mitre.org/data/definitions/637.html,['enterprise-attack'],['collection'],['Clipboard Data'],['T1115']
+11,https://msdn.microsoft.com/en-us/library/ms649012,['enterprise-attack'],['collection'],['Clipboard Data'],['T1115']
+12,https://github.com/huntergregal/mimipenguin,['enterprise-attack'],['credential-access'],['Proc Filesystem'],['T1003.007']
+13,https://github.com/GhostPack/KeeThief,['enterprise-attack'],['credential-access'],['Password Managers'],['T1555.005']
+14,https://support.microsoft.com/en-us/kb/197571,['enterprise-attack'],"['persistence', 'privilege-escalation']","['AppInit DLLs', 'AppInit DLLs']","['T1103', 'T1546.010']"
+15,https://msdn.microsoft.com/en-us/library/dn280412,['enterprise-attack'],"['persistence', 'privilege-escalation']","['AppInit DLLs', 'AppInit DLLs']","['T1103', 'T1546.010']"
+16,https://technet.microsoft.com/en-us/sysinternals/bb963902,['enterprise-attack'],"['persistence', 'privilege-escalation', 'execution']","['AppInit DLLs', 'Service Registry Permissions Weakness', 'Boot or Logon Autostart Execution', 'Port Monitors', 'Active Setup', 'Port Monitors', 'New Service', 'AppCert DLLs', 'Winlogon Helper DLL', 'Time Providers', 'Modify Existing Service', 'Winlogon Helper DLL', 'LSASS Driver', 'AppCert DLLs', 'Windows Management Instrumentation Event Subscription', 'Registry Run Keys / Startup Folder', 'Registry Run Keys / Startup Folder', 'AppInit DLLs', 'Time Providers', 'Windows Management Instrumentation Event Subscription', 'LSASS Driver', 'At', 'Scheduled Task', 'Windows Service']","['T1103', 'T1058', 'T1547', 'T1013', 'T1547.014', 'T1547.010', 'T1050', 'T1182', 'T1004', 'T1547.003', 'T1031', 'T1547.004', 'T1177', 'T1546.009', 'T1546.003', 'T1060', 'T1547.001', 'T1546.010', 'T1209', 'T1084', 'T1547.008', 'T1053.002', 'T1053.005', 'T1543.003']"
+17,https://theevilbit.github.io/posts/gatekeeper_not_a_bypass/,['enterprise-attack'],['defense-evasion'],['Gatekeeper Bypass'],['T1553.001']
+18,https://blog.malwarebytes.com/cybercrime/2015/10/bypassing-apples-gatekeeper/,['enterprise-attack'],['defense-evasion'],"['Gatekeeper Bypass', 'Gatekeeper Bypass']","['T1553.001', 'T1144']"
+19,https://capec.mitre.org/data/definitions/574.html,['enterprise-attack'],['discovery'],['System Service Discovery'],['T1007']
+20,https://docs.aws.amazon.com/vpc/latest/mirroring/traffic-mirroring-how-it-works.html,['enterprise-attack'],"['credential-access', 'discovery']",['Network Sniffing'],['T1040']
+21,https://cloud.google.com/vpc/docs/packet-mirroring,['enterprise-attack'],"['credential-access', 'discovery']",['Network Sniffing'],['T1040']
+22,https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-tap-overview,['enterprise-attack'],"['credential-access', 'discovery']",['Network Sniffing'],['T1040']
+23,https://capec.mitre.org/data/definitions/158.html,['enterprise-attack'],"['credential-access', 'discovery']",['Network Sniffing'],['T1040']
+24,https://capec.mitre.org/data/definitions/187.html,['enterprise-attack'],"['lateral-movement', 'execution']","['Application Deployment Software', 'Software Deployment Tools']","['T1017', 'T1072']"
+25,https://en.wikipedia.org/wiki/Code_signing,['enterprise-attack'],"['defense-evasion', 'resource-development']","['Code Signing', 'Code Signing Certificates', 'Code Signing', 'Code Signing Certificates']","['T1553.002', 'T1587.002', 'T1116', 'T1588.003']"
+26,https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+27,https://docs.microsoft.com/en-us/azure/storage/common/storage-security-guide,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+28,https://cloud.google.com/storage/docs/best-practices,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+29,https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/a-misconfigured-amazon-s3-exposed-almost-50-thousand-pii-in-australia,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+30,https://www.wired.com/story/magecart-amazon-cloud-hacks/,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+31,https://www.hipaajournal.com/47gb-medical-records-unsecured-amazon-s3-bucket/,['enterprise-attack'],['collection'],['Data from Cloud Storage Object'],['T1530']
+32,https://capec.mitre.org/data/definitions/643.html,['enterprise-attack'],['discovery'],['Network Share Discovery'],['T1135']
+33,https://en.wikipedia.org/wiki/Shared_resource,['enterprise-attack'],['discovery'],['Network Share Discovery'],['T1135']
+34,https://technet.microsoft.com/library/cc770880.aspx,['enterprise-attack'],['discovery'],['Network Share Discovery'],['T1135']
+35,https://capec.mitre.org/data/definitions/646.html,['enterprise-attack'],['discovery'],['Peripheral Device Discovery'],['T1120']
+36,https://docs.microsoft.com/windows/desktop/secauthz/dacls-and-aces,['enterprise-attack'],['defense-evasion'],['Windows File and Directory Permissions Modification'],['T1222.001']
+37,https://docs.microsoft.com/en-us/windows/win32/secauthz/access-control-lists,['enterprise-attack'],['defense-evasion'],['Windows File and Directory Permissions Modification'],['T1222.001']
+38,https://support.office.com/article/Add-or-remove-add-ins-0af570c4-5cf3-4fa9-9b88-403625a0b460,['enterprise-attack'],['persistence'],['Add-ins'],['T1137.006']
+39,https://docs.microsoft.com/en-us/exchange/transport-agents-exchange-2013-help,['enterprise-attack'],['persistence'],['Transport Agent'],['T1505.002']
+40,https://docs.aws.amazon.com/cli/latest/reference/ssm/describe-instance-information.html,['enterprise-attack'],['discovery'],"['System Information Discovery', 'Cloud Infrastructure Discovery']","['T1082', 'T1580']"
+41,https://cloud.google.com/compute/docs/reference/rest/v1/instances,['enterprise-attack'],['discovery'],['System Information Discovery'],['T1082']
+42,https://docs.microsoft.com/en-us/rest/api/compute/virtualmachines/get,['enterprise-attack'],['discovery'],['System Information Discovery'],['T1082']
+43,https://capec.mitre.org/data/definitions/312.html,['enterprise-attack'],['discovery'],['System Information Discovery'],['T1082']
+44,https://technet.microsoft.com/en-us/library/cc785125.aspx,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']",['Scheduled Task/Job'],['T1053']
+45,https://capec.mitre.org/data/definitions/557.html,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']",['Scheduled Task/Job'],['T1053']
+46,https://lolbas-project.github.io/lolbas/Binaries/Msiexec/,['enterprise-attack'],['defense-evasion'],['Msiexec'],['T1218.007']
+47,https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec,['enterprise-attack'],['defense-evasion'],['Msiexec'],['T1218.007']
+48,https://docs.microsoft.com/en-us/windows/win32/msi/alwaysinstallelevated,['enterprise-attack'],['defense-evasion'],['Msiexec'],['T1218.007']
+49,https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLoginItems.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Login Item', 'Login Items']","['T1162', 'T1547.015']"
+50,https://capec.mitre.org/data/definitions/564.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Login Item', 'Boot or Logon Autostart Execution', 'Boot or Logon Initialization Scripts']","['T1162', 'T1547', 'T1037']"
+51,https://capec.mitre.org/data/definitions/490.html,['enterprise-attack'],['impact'],['Reflection Amplification'],['T1498.002']
+52,https://social.technet.microsoft.com/wiki/contents/articles/12229.windows-system-services-fundamentals.aspx,['enterprise-attack'],['persistence'],['Terminal Services DLL'],['T1505.005']
+53,https://docs.microsoft.com/windows/win32/termserv/about-terminal-services,['enterprise-attack'],['persistence'],['Terminal Services DLL'],['T1505.005']
+54,https://github.com/stascorp/rdpwrap,['enterprise-attack'],['persistence'],['Terminal Services DLL'],['T1505.005']
+55,https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html,['enterprise-attack'],['execution'],['AppleScript'],['T1059.002']
+56,https://www.sentinelone.com/blog/macos-red-team-calling-apple-apis-without-building-binaries/,['enterprise-attack'],['execution'],"['AppleScript', 'JavaScript']","['T1059.002', 'T1059.007']"
+57,https://www.sentinelone.com/blog/how-offensive-actors-use-applescript-for-attacking-macos/,['enterprise-attack'],['execution'],['AppleScript'],['T1059.002']
+58,https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43824.pdf,['enterprise-attack'],['persistence'],['Browser Extensions'],['T1176']
+59,https://isc.sans.edu/forums/diary/CatchAll+Google+Chrome+Malicious+Extension+Steals+All+Posted+Data/22976/https:/threatpost.com/malicious-chrome-extension-steals-data-posted-to-any-website/128680/),['enterprise-attack'],['persistence'],['Browser Extensions'],['T1176']
+60,https://isc.sans.edu/forums/diary/BankerGoogleChromeExtensiontargetingBrazil/22722/,['enterprise-attack'],['persistence'],['Browser Extensions'],['T1176']
+61,https://en.wikipedia.org/wiki/Browser_extension,['enterprise-attack'],['persistence'],['Browser Extensions'],['T1176']
+62,https://capec.mitre.org/data/definitions/488.html,['enterprise-attack'],['impact'],['Service Exhaustion Flood'],['T1499.002']
+63,https://capec.mitre.org/data/definitions/489.html,['enterprise-attack'],['impact'],['Service Exhaustion Flood'],['T1499.002']
+64,https://capec.mitre.org/data/definitions/528.html,['enterprise-attack'],['impact'],['Service Exhaustion Flood'],['T1499.002']
+65,https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/OSX_Technology_Overview/CocoaApplicationLayer/CocoaApplicationLayer.html#//apple_ref/doc/uid/TP40001067-CH274-SW1,['enterprise-attack'],['execution'],['Native API'],['T1106']
+66,https://developer.apple.com/documentation/coreservices,['enterprise-attack'],['execution'],['Native API'],['T1106']
+67,https://developer.apple.com/documentation/foundation,['enterprise-attack'],['execution'],['Native API'],['T1106']
+68,http://msdn.microsoft.com/en-us/library/ms682425,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation', 'defense-evasion']","['Native API', 'Path Interception by Search Order Hijacking', 'Path Interception']","['T1106', 'T1574.008', 'T1034']"
+69,https://docs.microsoft.com/en-us/windows/win32/api/,['enterprise-attack'],['execution'],['Native API'],['T1106']
+70,https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework,['enterprise-attack'],['execution'],['Native API'],['T1106']
+71,https://social.technet.microsoft.com/wiki/contents/articles/23559.kerberos-pre-authentication-why-it-should-not-be-disabled.aspx,['enterprise-attack'],['credential-access'],['AS-REP Roasting'],['T1558.004']
+72,https://blogs.technet.microsoft.com/motiba/2018/02/23/detecting-kerberoasting-activity-using-azure-security-center/,['enterprise-attack'],['credential-access'],"['AS-REP Roasting', 'Steal or Forge Kerberos Tickets', 'Kerberoasting', 'Kerberoasting']","['T1558.004', 'T1558', 'T1208', 'T1558.003']"
+73,https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768,['enterprise-attack'],['credential-access'],['AS-REP Roasting'],['T1558.004']
+74,https://capec.mitre.org/data/definitions/478.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Service Registry Permissions Weakness', 'Services Registry Permissions Weakness', 'Windows Service']","['T1058', 'T1574.011', 'T1543.003']"
+75,https://msdn.microsoft.com/library/windows/desktop/ms724878.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']",['Service Registry Permissions Weakness'],['T1058']
+76,https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7,['enterprise-attack'],['defense-evasion'],"['Clear Command History', 'Impair Command History Logging']","['T1070.003', 'T1562.003']"
+77,https://www.techrepublic.com/blog/the-enterprise-cloud/backing-up-and-restoring-snapshots-on-amazon-ec2-machines/,['enterprise-attack'],['defense-evasion'],"['Revert Cloud Instance', 'Revert Cloud Instance']","['T1536', 'T1578.004']"
+78,https://cloud.google.com/compute/docs/disks/restore-and-delete-snapshots,['enterprise-attack'],['defense-evasion'],"['Revert Cloud Instance', 'Revert Cloud Instance']","['T1536', 'T1578.004']"
+79,https://docs.microsoft.com/en-us/office365/securitycompliance/detect-and-remediate-outlook-rules-forms-attack,['enterprise-attack'],['persistence'],"['Outlook Rules', 'Outlook Forms', 'Outlook Home Page', 'Office Application Startup']","['T1137.005', 'T1137.003', 'T1137.004', 'T1137']"
+80,https://blog.compass-security.com/2018/09/hidden-inbox-rules-in-microsoft-exchange/,['enterprise-attack'],"['persistence', 'collection']","['Outlook Rules', 'Email Forwarding Rule']","['T1137.005', 'T1114.003']"
+81,https://github.com/sensepost/notruler,['enterprise-attack'],['persistence'],"['Outlook Rules', 'Outlook Forms', 'Outlook Home Page', 'Office Application Startup']","['T1137.005', 'T1137.003', 'T1137.004', 'T1137']"
+82,https://capec.mitre.org/data/definitions/437.html,['enterprise-attack'],['initial-access'],['Supply Chain Compromise'],['T1195']
+83,https://capec.mitre.org/data/definitions/438.html,['enterprise-attack'],['initial-access'],['Supply Chain Compromise'],['T1195']
+84,https://capec.mitre.org/data/definitions/439.html,['enterprise-attack'],['initial-access'],['Supply Chain Compromise'],['T1195']
+85,https://cwe.mitre.org/top25/index.html,['enterprise-attack'],['initial-access'],['Exploit Public-Facing Application'],['T1190']
+86,https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-windows-smb-server-could-allow-for-remote-code-execution/,['enterprise-attack'],"['initial-access', 'lateral-movement']","['Exploit Public-Facing Application', 'Exploitation of Remote Services']","['T1190', 'T1210']"
+87,https://capec.mitre.org/data/definitions/652.html,['enterprise-attack'],['credential-access'],['Steal or Forge Kerberos Tickets'],['T1558']
+88,https://docs.microsoft.com/windows-server/administration/windows-commands/klist,['enterprise-attack'],['credential-access'],['Steal or Forge Kerberos Tickets'],['T1558']
+89,https://github.com/gentilkiwi/kekeo,['enterprise-attack'],['credential-access'],['Steal or Forge Kerberos Tickets'],['T1558']
+90,https://gallery.technet.microsoft.com/scriptcenter/Kerberos-Golden-Ticket-b4814285,['enterprise-attack'],['credential-access'],"['Steal or Forge Kerberos Tickets', 'Golden Ticket']","['T1558', 'T1558.001']"
+91,https://capec.mitre.org/data/definitions/576.html,['enterprise-attack'],['discovery'],['Permission Groups Discovery'],['T1069']
+92,https://blogs.technet.microsoft.com/timmcmic/2015/06/08/exchange-and-office-365-mail-forwarding-2/,['enterprise-attack'],['collection'],"['Email Collection', 'Email Forwarding Rule']","['T1114', 'T1114.003']"
+93,https://github.com/Neohapsis/creddump7,['enterprise-attack'],['credential-access'],['Security Account Manager'],['T1003.002']
+94,https://capec.mitre.org/data/definitions/532.html,['enterprise-attack'],"['persistence', 'defense-evasion']","['System Firmware', 'System Firmware']","['T1542.001', 'T1019']"
+95,https://en.wikipedia.org/wiki/BIOS,['enterprise-attack'],"['persistence', 'defense-evasion']","['System Firmware', 'System Firmware']","['T1542.001', 'T1019']"
+96,https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface,['enterprise-attack'],"['persistence', 'defense-evasion']","['System Firmware', 'System Firmware']","['T1542.001', 'T1019']"
+97,http://www.mitre.org/publications/project-stories/going-deep-into-the-bios-with-mitre-firmware-security-research,['enterprise-attack'],"['persistence', 'defense-evasion', 'impact']","['System Firmware', 'System Firmware', 'Firmware Corruption']","['T1542.001', 'T1019', 'T1495']"
+98,http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/copernicus-question-your-assumptions-about,['enterprise-attack'],"['persistence', 'defense-evasion']","['System Firmware', 'System Firmware']","['T1542.001', 'T1019']"
+99,https://github.com/chipsec/chipsec,['enterprise-attack'],"['persistence', 'defense-evasion']","['System Firmware', 'System Firmware']","['T1542.001', 'T1019']"
+100,https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetBucketAcl.html,['enterprise-attack'],['discovery'],['Cloud Groups'],['T1069.003']
+101,https://www.blackhillsinfosec.com/red-teaming-microsoft-part-1-active-directory-leaks-via-azure/,['enterprise-attack'],['discovery'],"['Cloud Groups', 'Cloud Account']","['T1069.003', 'T1087.004']"
+102,https://cloud.google.com/identity/docs/reference/rest,['enterprise-attack'],['discovery'],['Cloud Groups'],['T1069.003']
+103,https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest,['enterprise-attack'],['discovery'],"['Cloud Groups', 'Cloud Infrastructure Discovery', 'Cloud Account']","['T1069.003', 'T1580', 'T1087.004']"
+104,https://docs.microsoft.com/en-us/powershell/module/msonline/get-msolrole?view=azureadps-1.0,['enterprise-attack'],['discovery'],['Cloud Groups'],['T1069.003']
+105,https://github.com/True-Demon/raindance,['enterprise-attack'],['discovery'],"['Cloud Groups', 'Cloud Account']","['T1069.003', 'T1087.004']"
+106,https://itm4n.github.io/windows-registry-rpceptmapper-eop/,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Services Registry Permissions Weakness'],['T1574.011']
+107,https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Services Registry Permissions Weakness', 'Hijack Execution Flow']","['T1574.011', 'T1574']"
+108,https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights?redirectedfrom=MSDN,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Services Registry Permissions Weakness'],['T1574.011']
+109,https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-services-registry-tree,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Services Registry Permissions Weakness', 'Path Interception by Unquoted Path']","['T1574.011', 'T1574.009']"
+110,https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/StartupItems.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Rc.common', 'Startup Items', 'RC Scripts', 'Startup Items']","['T1163', 'T1037.005', 'T1037.004', 'T1165']"
+111,https://docs.microsoft.com/sysinternals/downloads/sysmon,['enterprise-attack'],"['impact', 'defense-evasion', 'privilege-escalation']","['Disk Wipe', 'Process Injection', 'Disk Content Wipe', 'Disk Structure Wipe']","['T1561', 'T1055', 'T1561.001', 'T1561.002']"
+112,https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html,['enterprise-attack'],['credential-access'],"['Cloud Instance Metadata API', 'Cloud Instance Metadata API']","['T1552.005', 'T1522']"
+113,https://blogs.technet.microsoft.com/musings_of_a_technical_tam/2012/02/13/group-policy-basics-part-1-understanding-the-structure-of-a-group-policy-object/,['enterprise-attack'],"['discovery', 'defense-evasion', 'privilege-escalation']","['Group Policy Discovery', 'Group Policy Modification']","['T1615', 'T1484.001']"
+114,https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/gpresult,['enterprise-attack'],['discovery'],['Group Policy Discovery'],['T1615']
+115,https://github.com/PowerShellEmpire/Empire,['enterprise-attack'],['discovery'],['Group Policy Discovery'],['T1615']
+116,https://capec.mitre.org/data/definitions/552.html,['enterprise-attack'],"['persistence', 'defense-evasion']","['Bootkit', 'Hypervisor', 'Rootkit']","['T1542.003', 'T1062', 'T1014']"
+117,https://lolbas-project.github.io/lolbas/Binaries/Mavinject/,['enterprise-attack'],['defense-evasion'],['Mavinject'],['T1218.013']
+118,https://reaqta.com/2017/12/mavinject-microsoft-injector/,['enterprise-attack'],['defense-evasion'],['Mavinject'],['T1218.013']
+119,https://docs.docker.com/engine/reference/commandline/images/,['enterprise-attack'],['defense-evasion'],['Match Legitimate Name or Location'],['T1036.005']
+120,https://capec.mitre.org/data/definitions/177.html,['enterprise-attack'],['defense-evasion'],"['Match Legitimate Name or Location', 'Masquerading']","['T1036.005', 'T1036']"
+121,https://en.wikipedia.org/wiki/Password_cracking,['enterprise-attack'],['credential-access'],['Password Cracking'],['T1110.002']
+122,https://capec.mitre.org/data/definitions/55.html,['enterprise-attack'],['credential-access'],['Password Cracking'],['T1110.002']
+123,https://msdn.microsoft.com/library/windows/desktop/aa379571.aspx,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']","['SID-History Injection', 'SID-History Injection']","['T1178', 'T1134.005']"
+124,https://msdn.microsoft.com/library/ms679833.aspx,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']","['SID-History Injection', 'SID-History Injection']","['T1178', 'T1134.005']"
+125,https://support.microsoft.com/help/243330/well-known-security-identifiers-in-windows-operating-systems,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']","['SID-History Injection', 'SID-History Injection']","['T1178', 'T1134.005']"
+126,https://technet.microsoft.com/library/ee617241.aspx,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']","['SID-History Injection', 'SID-History Injection']","['T1178', 'T1134.005']"
+127,https://msdn.microsoft.com/library/ms677982.aspx,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']","['SID-History Injection', 'SID-History Injection']","['T1178', 'T1134.005']"
+128,https://support.office.com/en-us/article/introduction-to-outlook-data-files-pst-and-ost-222eaf92-a995-45d9-bde2-f331f60e2790,['enterprise-attack'],['collection'],['Local Email Collection'],['T1114.001']
+129,https://developer.apple.com/documentation/security/keychain_services,['enterprise-attack'],['credential-access'],['Keychain'],['T1555.001']
+130,https://github.com/EmpireProject/Empire/blob/08cbd274bef78243d7a8ed6443b8364acd1fc48b/lib/modules/python/collection/osx/keychaindump_decrypt.py,['enterprise-attack'],['credential-access'],['Keychain'],['T1555.001']
+131,https://support.passware.com/hc/en-us/articles/4573379868567-A-Deep-Dive-into-Apple-Keychain-Decryption,['enterprise-attack'],['credential-access'],['Keychain'],['T1555.001']
+132,https://msdn.microsoft.com/library/windows/desktop/aa374733.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Boot or Logon Autostart Execution', 'Authentication Package', 'Authentication Package']","['T1547', 'T1131', 'T1547.002']"
+133,http://msdn.microsoft.com/en-us/library/aa376977,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Boot or Logon Autostart Execution', 'Registry Run Keys / Startup Folder', 'Registry Run Keys / Startup Folder']","['T1547', 'T1060', 'T1547.001']"
+134,https://msdn.microsoft.com/library/windows/desktop/ms725475.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Boot or Logon Autostart Execution', 'Time Providers', 'Time Providers']","['T1547', 'T1547.003', 'T1209']"
+135,https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material?redirectedfrom=MSDN,['enterprise-attack'],['credential-access'],['LSA Secrets'],['T1003.004']
+136,https://github.com/mattifestation/PowerSploit,['enterprise-attack'],"['credential-access', 'defense-evasion', 'execution']","['LSA Secrets', 'LSASS Memory', 'Cached Domain Credentials', 'Scripting', 'PowerShell', 'OS Credential Dumping']","['T1003.004', 'T1003.001', 'T1003.005', 'T1064', 'T1086', 'T1003']"
+137,http://msdn.microsoft.com/en-us/library/dd183341,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Port Monitors', 'Port Monitors']","['T1013', 'T1547.010']"
+138,https://blogs.microsoft.com/on-the-issues/2020/12/13/customers-protect-nation-state-cyberattacks/,['enterprise-attack'],['credential-access'],['SAML Tokens'],['T1606.002']
+139,https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-configurable-token-lifetimes,['enterprise-attack'],['credential-access'],['SAML Tokens'],['T1606.002']
+140,https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks/,['enterprise-attack'],"['credential-access', 'persistence', 'defense-evasion', 'privilege-escalation']","['SAML Tokens', 'Additional Cloud Credentials', 'Forge Web Credentials', 'Domain Policy Modification']","['T1606.002', 'T1098.001', 'T1606', 'T1484']"
+141,https://msdn.microsoft.com/en-us/library/04za0hca.aspx,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvcs/Regasm', 'Regsvcs/Regasm']","['T1121', 'T1218.009']"
+142,https://msdn.microsoft.com/en-us/library/tzat5yw6.aspx,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvcs/Regasm', 'Regsvcs/Regasm']","['T1121', 'T1218.009']"
+143,https://lolbas-project.github.io/lolbas/Binaries/Regsvcs/,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvcs/Regasm', 'Regsvcs/Regasm']","['T1121', 'T1218.009']"
+144,https://lolbas-project.github.io/lolbas/Binaries/Regasm/,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvcs/Regasm', 'Regsvcs/Regasm']","['T1121', 'T1218.009']"
+145,https://capec.mitre.org/data/definitions/575.html,['enterprise-attack'],['discovery'],"['Domain Account', 'Account Discovery']","['T1087.002', 'T1087']"
+146,https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-dde-feature-in-word-to-prevent-further-malware-attacks/,['enterprise-attack'],['execution'],"['Dynamic Data Exchange', 'Dynamic Data Exchange']","['T1559.002', 'T1173']"
+147,https://portal.msrc.microsoft.com/security-guidance/advisory/ADV170021,['enterprise-attack'],['execution'],"['Dynamic Data Exchange', 'Dynamic Data Exchange']","['T1559.002', 'T1173']"
+148,https://technet.microsoft.com/library/security/4053440,['enterprise-attack'],['execution'],"['Dynamic Data Exchange', 'Dynamic Data Exchange']","['T1559.002', 'T1173']"
+149,https://capec.mitre.org/data/definitions/562.html,['enterprise-attack'],['lateral-movement'],['Taint Shared Content'],['T1080']
+150,https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-fed,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']",['Domain Trust Modification'],['T1484.002']
+151,https://github.com/Azure/Azure-Sentinel/blob/master/Detections/AuditLogs/ADFSDomainTrustMods.yaml,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Domain Trust Modification', 'Domain Policy Modification']","['T1484.002', 'T1484']"
+152,https://docs.microsoft.com/en-us/office365/troubleshoot/active-directory/update-federated-domain-office-365,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Domain Trust Modification', 'Domain Policy Modification']","['T1484.002', 'T1484']"
+153,https://capec.mitre.org/data/definitions/630.html,['enterprise-attack'],['resource-development'],['Domains'],['T1583.001']
+154,https://libzip.org/,['enterprise-attack'],['collection'],['Archive via Library'],['T1560.002']
+155,https://github.com/madler/zlib,['enterprise-attack'],['collection'],['Archive via Library'],['T1560.002']
+156,https://en.wikipedia.org/wiki/List_of_file_signatures,['enterprise-attack'],"['collection', 'exfiltration']","['Archive via Library', 'Archive Collected Data', 'Data Compressed', 'Data Encrypted', 'Archive via Utility']","['T1560.002', 'T1560', 'T1002', 'T1022', 'T1560.001']"
+157,https://lolbas-project.github.io/,['enterprise-attack'],['defense-evasion'],"['Masquerading', 'Rename System Utilities']","['T1036', 'T1036.003']"
+158,https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CustomLogin.html,['enterprise-attack'],"['persistence', 'privilege-escalation']",['Login Hook'],['T1037.002']
+159,https://developer.apple.com/documentation/devicemanagement/loginwindowscripts,['enterprise-attack'],"['persistence', 'privilege-escalation']",['Login Hook'],['T1037.002']
+160,https://capec.mitre.org/data/definitions/640.html,['enterprise-attack'],"['defense-evasion', 'privilege-escalation', 'persistence']","['Process Injection', 'Dynamic Linker Hijacking']","['T1055', 'T1574.006']"
+161,https://gitlab.com/wireshark/wireshark/-/wikis/WakeOnLAN,['enterprise-attack'],"['defense-evasion', 'persistence', 'command-and-control']",['Traffic Signaling'],['T1205']
+162,https://docs.microsoft.com/en-us/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata,['enterprise-attack'],['credential-access'],"['Credentials from Web Browsers', 'Credentials from Web Browsers']","['T1503', 'T1555.003']"
+163,https://github.com/putterpanda/mimikittenz,['enterprise-attack'],['credential-access'],"['Credentials from Web Browsers', 'Credentials from Web Browsers']","['T1503', 'T1555.003']"
+164,https://gtfobins.github.io/gtfobins/split/,['enterprise-attack'],['defense-evasion'],['System Binary Proxy Execution'],['T1218']
+165,https://github.com/LOLBAS-Project/LOLBAS#criteria,['enterprise-attack'],['defense-evasion'],"['System Binary Proxy Execution', 'System Script Proxy Execution']","['T1218', 'T1216']"
+166,http://msdn.microsoft.com/en-US/library/ms682586,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1038']
+167,https://msrc-blog.microsoft.com/2010/08/21/microsoft-security-advisory-2269637-released/,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1038']
+168,http://msdn.microsoft.com/en-US/library/ms682600,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['DLL Search Order Hijacking'],['T1038']
+169,https://capec.mitre.org/data/definitions/550.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['New Service', 'Launch Daemon', 'Systemd Service', 'Windows Service']","['T1050', 'T1543.004', 'T1543.002', 'T1543.003']"
+170,https://technet.microsoft.com/en-us/library/cc772408.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']","['New Service', 'Create or Modify System Process', 'Windows Service']","['T1050', 'T1543', 'T1543.003']"
+171,https://docs.microsoft.com/windows/security/threat-protection/auditing/event-4697,['enterprise-attack'],"['persistence', 'privilege-escalation']","['New Service', 'Windows Service']","['T1050', 'T1543.003']"
+172,https://docs.microsoft.com/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection,['enterprise-attack'],"['persistence', 'privilege-escalation']","['New Service', 'Windows Service']","['T1050', 'T1543.003']"
+173,https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html,['enterprise-attack'],['defense-evasion'],['Reflective Code Loading'],['T1620']
+174,https://thewover.github.io/Introducing-Donut/,['enterprise-attack'],['defense-evasion'],['Reflective Code Loading'],['T1620']
+175,https://docs.docker.com/get-started/overview/,['enterprise-attack'],['privilege-escalation'],['Escape to Host'],['T1611']
+176,https://docs.docker.com/storage/bind-mounts/,['enterprise-attack'],['privilege-escalation'],['Escape to Host'],['T1611']
+177,https://www.trendmicro.com/en_us/research/19/l/why-running-a-privileged-container-in-docker-is-a-bad-idea.html,['enterprise-attack'],['privilege-escalation'],['Escape to Host'],['T1611']
+178,https://capec.mitre.org/data/definitions/132.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Shortcut Modification', 'Shortcut Modification']","['T1547.009', 'T1023']"
+179,https://www.youtube.com/watch?v=nJ0UsyiUEqQ,['enterprise-attack'],"['persistence', 'privilege-escalation']",['Shortcut Modification'],['T1547.009']
+180,https://docs.microsoft.com/en-us/exchange/email-addresses-and-address-books/address-lists/address-lists?view=exchserver-2019,['enterprise-attack'],['discovery'],['Email Account'],['T1087.003']
+181,https://docs.microsoft.com/en-us/powershell/module/exchange/email-addresses-and-address-books/get-globaladdresslist,['enterprise-attack'],['discovery'],['Email Account'],['T1087.003']
+182,https://support.google.com/a/answer/166870?hl=en,['enterprise-attack'],['discovery'],['Email Account'],['T1087.003']
+183,https://en.wikipedia.org/wiki/Hypervisor,['enterprise-attack'],['persistence'],['Hypervisor'],['T1062']
+184,http://en.wikipedia.org/wiki/Xen,['enterprise-attack'],['persistence'],['Hypervisor'],['T1062']
+185,https://drive.google.com/file/d/1t0jn3xr4ff2fR30oQAUn_RsWSnMpOAQc,['enterprise-attack'],"['defense-evasion', 'discovery']","['Time Based Evasion', 'Virtualization/Sandbox Evasion', 'User Activity Based Checks', 'System Checks']","['T1497.003', 'T1497', 'T1497.002', 'T1497.001']"
+186,https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc786431(v=ws.10),['enterprise-attack'],"['defense-evasion', 'execution']","['CMSTP', 'CMSTP']","['T1218.003', 'T1191']"
+187,https://github.com/api0cradle/UltimateAppLockerByPassList,['enterprise-attack'],"['defense-evasion', 'execution']","['CMSTP', 'CMSTP', 'System Script Proxy Execution']","['T1218.003', 'T1191', 'T1216']"
+188,https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/audit-policy,['enterprise-attack'],['defense-evasion'],['Disable Windows Event Logging'],['T1562.002']
+189,https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings,['enterprise-attack'],['defense-evasion'],['Disable Windows Event Logging'],['T1562.002']
+190,https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/auditpol,['enterprise-attack'],['defense-evasion'],['Disable Windows Event Logging'],['T1562.002']
+191,https://strontic.github.io/xcyclopedia/library/auditpol.exe-214E0EA1F7F7C27C82D23F183F9D23F1.html,['enterprise-attack'],['defense-evasion'],['Disable Windows Event Logging'],['T1562.002']
+192,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md,['enterprise-attack'],['defense-evasion'],['Disable Windows Event Logging'],['T1562.002']
+193,https://capec.mitre.org/data/definitions/561.html,['enterprise-attack'],['lateral-movement'],"['SMB/Windows Admin Shares', 'Windows Admin Shares']","['T1021.002', 'T1077']"
+194,https://en.wikipedia.org/wiki/Server_Message_Block,['enterprise-attack'],"['lateral-movement', 'credential-access']","['SMB/Windows Admin Shares', 'Forced Authentication', 'Windows Admin Shares']","['T1021.002', 'T1187', 'T1077']"
+195,https://technet.microsoft.com/en-us/library/cc787851.aspx,['enterprise-attack'],['lateral-movement'],"['SMB/Windows Admin Shares', 'Windows Admin Shares']","['T1021.002', 'T1077']"
+196,http://support.microsoft.com/kb/314984,['enterprise-attack'],['lateral-movement'],"['SMB/Windows Admin Shares', 'Windows Admin Shares']","['T1021.002', 'T1077']"
+197,https://docs.microsoft.com/en-us/archive/blogs/jepayne/tracking-lateral-movement-part-one-special-groups-and-specific-service-accounts,['enterprise-attack'],['lateral-movement'],"['SMB/Windows Admin Shares', 'Windows Admin Shares']","['T1021.002', 'T1077']"
+198,https://docs.microsoft.com/en-us/archive/blogs/jepayne/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem,['enterprise-attack'],['lateral-movement'],"['SMB/Windows Admin Shares', 'Windows Admin Shares']","['T1021.002', 'T1077']"
+199,https://github.com/RhinoSecurityLabs/ccat,['enterprise-attack'],['persistence'],['Implant Internal Image'],['T1525']
+200,https://msdn.microsoft.com/library/windows/desktop/cc144185.aspx,['enterprise-attack'],"['defense-evasion', 'execution']","['Control Panel', 'Control Panel Items']","['T1218.002', 'T1196']"
+201,https://technet.microsoft.com/en-us/library/dn408187.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Security Support Provider', 'Authentication Package', 'Security Support Provider', 'Authentication Package']","['T1547.005', 'T1131', 'T1101', 'T1547.002']"
+202,https://capec.mitre.org/data/definitions/579.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Winlogon Helper DLL', 'Winlogon Helper DLL']","['T1004', 'T1547.004']"
+203,https://capec.mitre.org/data/definitions/572.html,['enterprise-attack'],['defense-evasion'],"['Binary Padding', 'Binary Padding']","['T1009', 'T1027.001']"
+204,https://technet.microsoft.com/en-us/library/dn487457.aspx,['enterprise-attack'],"['defense-evasion', 'lateral-movement', 'persistence', 'privilege-escalation', 'initial-access', 'credential-access']","['Use Alternate Authentication Material', 'Valid Accounts', 'Domain Accounts', 'Domain Controller Authentication', 'Modify Authentication Process']","['T1550', 'T1078', 'T1078.002', 'T1556.001', 'T1556']"
+205,https://capec.mitre.org/data/definitions/555.html,['enterprise-attack'],"['lateral-movement', 'execution', 'persistence', 'initial-access']","['Remote Desktop Protocol', 'Remote Services', 'Windows Remote Management', 'Remote Desktop Protocol', 'External Remote Services', 'VNC', 'SSH']","['T1076', 'T1021', 'T1028', 'T1021.001', 'T1133', 'T1021.005', 'T1021.004']"
+206,https://technet.microsoft.com/en-us/windowsserver/ee236407.aspx,['enterprise-attack'],['lateral-movement'],"['Remote Desktop Protocol', 'Remote Services', 'RDP Hijacking', 'Remote Desktop Protocol']","['T1076', 'T1021', 'T1563.002', 'T1021.001']"
+207,https://github.com/nccgroup/redsnarf,['enterprise-attack'],['lateral-movement'],"['Remote Desktop Protocol', 'RDP Hijacking']","['T1076', 'T1563.002']"
+208,https://github.com/dxa4481/truffleHog,['enterprise-attack'],['reconnaissance'],"['Gather Victim Identity Information', 'Credentials']","['T1589', 'T1589.001']"
+209,https://www.theregister.com/2015/02/28/uber_subpoenas_github_for_hacker_details/,['enterprise-attack'],['reconnaissance'],"['Gather Victim Identity Information', 'Credentials']","['T1589', 'T1589.001']"
+210,https://github.com/michenriksen/gitrob,['enterprise-attack'],['reconnaissance'],"['Gather Victim Identity Information', 'Credentials']","['T1589', 'T1589.001']"
+211,https://www.forbes.com/sites/runasandvik/2014/01/14/attackers-scrape-github-for-cloud-service-credentials-hijack-account-to-mine-virtual-currency/#242c479d3196,['enterprise-attack'],['reconnaissance'],"['Gather Victim Identity Information', 'Credentials']","['T1589', 'T1589.001']"
+212,https://www.theregister.com/2017/09/26/deloitte_leak_github_and_google/,['enterprise-attack'],['reconnaissance'],"['Gather Victim Identity Information', 'Credentials']","['T1589', 'T1589.001']"
+213,https://msdn.microsoft.com/library/windows/desktop/ms633574.aspx,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Extra Window Memory Injection', 'Extra Window Memory Injection']","['T1181', 'T1055.011']"
+214,https://msdn.microsoft.com/library/windows/desktop/ms633584.aspx,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Extra Window Memory Injection', 'Extra Window Memory Injection']","['T1181', 'T1055.011']"
+215,https://msdn.microsoft.com/library/windows/desktop/ms633591.aspx,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Extra Window Memory Injection', 'Extra Window Memory Injection']","['T1181', 'T1055.011']"
+216,https://msdn.microsoft.com/library/windows/desktop/ms644953.aspx,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Extra Window Memory Injection', 'Extra Window Memory Injection']","['T1181', 'T1055.011']"
+217,https://github.com/mattifestation/PoCSubjectInterfacePackage,['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+218,https://docs.microsoft.com/windows-hardware/drivers/install/catalog-files,['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+219,https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd941614(v=ws.10),['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+220,https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn311461(v=ws.11),['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+221,https://msdn.microsoft.com/library/ms537359.aspx,['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+222,https://msdn.microsoft.com/library/windows/desktop/aa388208.aspx,['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+223,https://blogs.technet.microsoft.com/eduardonavarro/2008/07/11/sips-subject-interface-package-and-authenticode/,['enterprise-attack'],"['defense-evasion', 'persistence']","['SIP and Trust Provider Hijacking', 'SIP and Trust Provider Hijacking']","['T1553.003', 'T1198']"
+224,https://en.wikipedia.org/wiki/Man-in-the-browser,['enterprise-attack'],['collection'],['Browser Session Hijacking'],['T1185']
+225,https://support.apple.com/en-us/HT209161,['enterprise-attack'],['lateral-movement'],['Remote Services'],['T1021']
+226,https://support.apple.com/en-us/HT201710,['enterprise-attack'],['lateral-movement'],['Remote Services'],['T1021']
+227,https://images.apple.com/remotedesktop/pdf/ARD_Admin_Guide_v3.3.pdf,['enterprise-attack'],['lateral-movement'],['Remote Services'],['T1021']
+228,https://www.fireeye.com/blog/threat-research/2019/10/leveraging-apple-remote-desktop-for-good-and-evil.html,['enterprise-attack'],['lateral-movement'],['Remote Services'],['T1021']
+229,http://lockboxx.blogspot.com/2019/07/macos-red-teaming-206-ard-apple-remote.html,['enterprise-attack'],['lateral-movement'],['Remote Services'],['T1021']
+230,https://sarah-edwards-xzkc.squarespace.com/blog/2020/4/30/analysis-of-apple-unified-logs-quarantine-edition-entry-6-working-from-home-remote-logins,['enterprise-attack'],['lateral-movement'],"['Remote Services', 'VNC', 'SSH']","['T1021', 'T1021.005', 'T1021.004']"
+231,https://github.com/shellster/DCSYNCMonitor,['enterprise-attack'],['defense-evasion'],['Rogue Domain Controller'],['T1207']
+232,https://msdn.microsoft.com/en-us/library/ms677626.aspx,['enterprise-attack'],['defense-evasion'],['Rogue Domain Controller'],['T1207']
+233,https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection,['enterprise-attack'],['defense-evasion'],['Code Signing Policy Modification'],['T1553.006']
+234,https://docs.microsoft.com/en-us/windows-hardware/drivers/install/installing-an-unsigned-driver-during-development-and-test,['enterprise-attack'],['defense-evasion'],['Code Signing Policy Modification'],['T1553.006']
+235,https://docs.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653559(v=vs.85)?redirectedfrom=MSDN,['enterprise-attack'],['defense-evasion'],['Code Signing Policy Modification'],['T1553.006']
+236,https://docs.microsoft.com/en-us/windows-hardware/drivers/install/the-testsigning-boot-configuration-option,['enterprise-attack'],['defense-evasion'],['Code Signing Policy Modification'],['T1553.006']
+237,https://github.com/hfiref0x/TDL,['enterprise-attack'],['defense-evasion'],['Code Signing Policy Modification'],['T1553.006']
+238,https://docs.docker.com/engine/api/v1.41/#tag/Container,['enterprise-attack'],"['defense-evasion', 'execution']",['Deploy Container'],['T1610']
+239,https://blog.aquasec.com/malicious-container-image-docker-container-host,['enterprise-attack'],"['defense-evasion', 'execution']","['Deploy Container', 'Build Image on Host']","['T1610', 'T1612']"
+240,https://en.wikipedia.org/wiki/Public-key_cryptography,['enterprise-attack'],['credential-access'],"['Private Keys', 'Private Keys']","['T1145', 'T1552.004']"
+241,https://capec.mitre.org/data/definitions/203.html,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+242,https://technet.microsoft.com/en-us/library/cc732643.aspx,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+243,https://docs.microsoft.com/sysinternals/downloads/reghide,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+244,https://technet.microsoft.com/en-us/library/cc754820.aspx,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+245,https://docs.microsoft.com/windows/security/threat-protection/auditing/event-4657,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+246,https://docs.microsoft.com/en-us/sysinternals/downloads/regdelnull,['enterprise-attack'],['defense-evasion'],['Modify Registry'],['T1112']
+247,https://capec.mitre.org/data/definitions/551.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Launch Daemon', 'Modify Existing Service', 'Systemd Service', 'Windows Service']","['T1543.004', 'T1031', 'T1543.002', 'T1543.003']"
+248,https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'execution']","['Launch Daemon', 'Launchd', 'Launch Agent', 'Launch Agent', 'Launch Daemon', 'Create or Modify System Process']","['T1543.004', 'T1053.004', 'T1543.001', 'T1159', 'T1160', 'T1543']"
+249,https://docs.aws.amazon.com/AmazonS3/latest/API/API_HeadBucket.html,['enterprise-attack'],['discovery'],['Cloud Infrastructure Discovery'],['T1580']
+250,https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetPublicAccessBlock.html,['enterprise-attack'],['discovery'],['Cloud Infrastructure Discovery'],['T1580']
+251,https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DescribeDBInstances.html,['enterprise-attack'],['discovery'],['Cloud Infrastructure Discovery'],['T1580']
+252,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeInstances.html,['enterprise-attack'],['discovery'],['Cloud Infrastructure Discovery'],['T1580']
+253,https://cloud.google.com/sdk/gcloud/reference/compute/instances/list,['enterprise-attack'],['discovery'],['Cloud Infrastructure Discovery'],['T1580']
+254,https://capec.mitre.org/data/definitions/159.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Path Interception by Search Order Hijacking', 'Path Interception']","['T1574.008', 'T1034']"
+255,https://docs.microsoft.com/en-us/previous-versions//cc723564(v=technet.10)?redirectedfrom=MSDN#XSLTsection127121120120,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Path Interception by Search Order Hijacking'],['T1574.008']
+256,http://msdn.microsoft.com/en-us/library/ms687393,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Path Interception by Search Order Hijacking', 'Path Interception']","['T1574.008', 'T1034']"
+257,https://docs.microsoft.com/en-us/previous-versions//fd7hxfdd(v=vs.85)?redirectedfrom=MSDN,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Path Interception by Search Order Hijacking'],['T1574.008']
+258,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn800668(v=ws.11),['enterprise-attack'],"['credential-access', 'collection']",['DHCP Spoofing'],['T1557.003']
+259,https://capec.mitre.org/data/definitions/655.html,['enterprise-attack'],['defense-evasion'],['Binary Padding'],['T1027.001']
+260,https://capec.mitre.org/data/definitions/650.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Web Shell', 'Web Shell']","['T1505.003', 'T1100']"
+261,https://github.com/nsacyber/Mitigating-Web-Shells,['enterprise-attack'],['persistence'],['Web Shell'],['T1505.003']
+262,https://www.microsoft.com/security/blog/2016/06/01/hacking-team-breach-a-cyber-jurassic-park/,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']",['Group Policy Modification'],['T1484.001']
+263,http://msdn.microsoft.com/en-us/library/aa384426,['enterprise-attack'],"['lateral-movement', 'execution']","['Windows Remote Management', 'Windows Remote Management']","['T1021.006', 'T1028']"
+264,https://msdn.microsoft.com/en-us/library/aa394582.aspx,['enterprise-attack'],"['lateral-movement', 'execution']","['Windows Remote Management', 'Distributed Component Object Model', 'Windows Management Instrumentation']","['T1021.006', 'T1021.003', 'T1047']"
+265,https://capec.mitre.org/data/definitions/70.html,['enterprise-attack'],"['defense-evasion', 'persistence', 'privilege-escalation', 'initial-access']",['Default Accounts'],['T1078.001']
+266,https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/local-accounts,['enterprise-attack'],"['defense-evasion', 'persistence', 'privilege-escalation', 'initial-access']",['Default Accounts'],['T1078.001']
+267,https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html,['enterprise-attack'],"['defense-evasion', 'persistence', 'privilege-escalation', 'initial-access']",['Default Accounts'],['T1078.001']
+268,https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/,['enterprise-attack'],"['defense-evasion', 'persistence', 'privilege-escalation', 'initial-access', 'execution']","['Default Accounts', 'Container Orchestration Job']","['T1078.001', 'T1053.007']"
+269,https://github.com/rapid7/metasploit-framework/tree/master/modules/exploits/linux/ssh,['enterprise-attack'],"['defense-evasion', 'persistence', 'privilege-escalation', 'initial-access']",['Default Accounts'],['T1078.001']
+270,https://github.com/scottlundgren/w32time,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Time Providers', 'Time Providers']","['T1547.003', 'T1209']"
+271,https://docs.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Time Providers', 'Time Providers']","['T1547.003', 'T1209']"
+272,https://docs.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-top,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Time Providers', 'Time Providers']","['T1547.003', 'T1209']"
+273,https://blogs.msdn.microsoft.com/mithuns/2010/03/24/image-file-execution-options-ifeo/,['enterprise-attack'],"['privilege-escalation', 'persistence', 'defense-evasion']","['Image File Execution Options Injection', 'Image File Execution Options Injection']","['T1183', 'T1546.012']"
+274,https://docs.microsoft.com/windows-hardware/drivers/debugger/gflags-overview,['enterprise-attack'],"['privilege-escalation', 'persistence', 'defense-evasion']","['Image File Execution Options Injection', 'Image File Execution Options Injection']","['T1183', 'T1546.012']"
+275,https://docs.microsoft.com/windows-hardware/drivers/debugger/registry-entries-for-silent-process-exit,['enterprise-attack'],"['privilege-escalation', 'persistence', 'defense-evasion']","['Image File Execution Options Injection', 'Image File Execution Options Injection']","['T1183', 'T1546.012']"
+276,https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753662(v=ws.11),['enterprise-attack'],['persistence'],['Modify Existing Service'],['T1031']
+277,https://capec.mitre.org/data/definitions/13.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']","['Dynamic Linker Hijacking', 'Impair Command History Logging', 'HISTCONTROL', 'Path Interception by PATH Environment Variable']","['T1574.006', 'T1562.003', 'T1148', 'T1574.007']"
+278,https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Dynamic Linker Hijacking'],['T1574.006']
+279,https://theevilbit.github.io/posts/dyld_insert_libraries_dylib_injection_in_macos_osx_deep_dive/,['enterprise-attack'],"['persistence', 'privilege-escalation', 'defense-evasion']",['Dynamic Linker Hijacking'],['T1574.006']
+280,https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720,['enterprise-attack'],['persistence'],"['Local Account', 'Domain Account', 'Create Account']","['T1136.001', 'T1136.002', 'T1136']"
+281,https://docs.microsoft.com/powershell/module/microsoft.powershell.management/clear-eventlog,['enterprise-attack'],['defense-evasion'],['Clear Windows Event Logs'],['T1070.001']
+282,https://msdn.microsoft.com/library/system.diagnostics.eventlog.clear.aspx,['enterprise-attack'],['defense-evasion'],['Clear Windows Event Logs'],['T1070.001']
+283,https://docs.microsoft.com/windows-server/administration/windows-commands/wevtutil,['enterprise-attack'],['defense-evasion'],['Clear Windows Event Logs'],['T1070.001']
+284,https://en.wikipedia.org/wiki/Link-Local_Multicast_Name_Resolution,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+285,https://technet.microsoft.com/library/cc958811.aspx,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+286,https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+287,https://github.com/nomex/nbnspoof,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+288,https://github.com/SpiderLabs/Responder,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+289,https://github.com/Kevin-Robertson/Conveigh,['enterprise-attack'],"['credential-access', 'collection']","['LLMNR/NBT-NS Poisoning and SMB Relay', 'LLMNR/NBT-NS Poisoning and Relay']","['T1557.001', 'T1171']"
+290,https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/,['enterprise-attack'],['credential-access'],['LSASS Memory'],['T1003.001']
+291,https://blogs.technet.microsoft.com/askpfeplat/2016/04/18/the-importance-of-kb2871997-and-kb2928120-for-credential-protection/,['enterprise-attack'],['credential-access'],['LSASS Memory'],['T1003.001']
+292,https://gtfobins.github.io/gtfobins/at/,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']","['At (Linux)', 'At']","['T1053.001', 'T1053.002']"
+293,https://msdn.microsoft.com/library/windows/desktop/ms644959.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation', 'credential-access', 'collection']","['Hooking', 'Credential API Hooking']","['T1179', 'T1056.004']"
+294,https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=TrojanSpy:Win32/Ursnif.gen!I&threatId=-2147336918,['enterprise-attack'],"['persistence', 'privilege-escalation', 'credential-access', 'collection']","['Hooking', 'Credential API Hooking']","['T1179', 'T1056.004']"
+295,https://github.com/prekageo/winhook,['enterprise-attack'],"['persistence', 'privilege-escalation', 'credential-access', 'collection']","['Hooking', 'Credential API Hooking']","['T1179', 'T1056.004']"
+296,https://github.com/jay/gethooks,['enterprise-attack'],"['persistence', 'privilege-escalation', 'credential-access', 'collection']","['Hooking', 'Credential API Hooking']","['T1179', 'T1056.004']"
+297,https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation', 'credential-access', 'collection']","['Hooking', 'Credential API Hooking']","['T1179', 'T1056.004']"
+298,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771525(v=ws.11),['enterprise-attack'],"['defense-evasion', 'privilege-escalation']",['Create Process with Token'],['T1134.002']
+299,https://technet.microsoft.com/en-us/windows-server-docs/identity/ad-ds/manage/component-updates/command-line-process-auditing,['enterprise-attack'],"['defense-evasion', 'privilege-escalation']","['Create Process with Token', 'Token Impersonation/Theft', 'Make and Impersonate Token', 'Access Token Manipulation']","['T1134.002', 'T1134.001', 'T1134.003', 'T1134']"
+300,https://gtfobins.github.io/#+suid,['enterprise-attack'],"['privilege-escalation', 'defense-evasion']",['Setuid and Setgid'],['T1548.001']
+301,https://msdn.microsoft.com/en-us/library/windows/desktop/ms687317(v=vs.85).aspx,['enterprise-attack'],"['lateral-movement', 'execution']","['Distributed Component Object Model', 'Component Object Model and Distributed COM']","['T1021.003', 'T1175']"
+302,https://docs.microsoft.com/en-us/windows/desktop/com/dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1,['enterprise-attack'],"['lateral-movement', 'execution']","['Distributed Component Object Model', 'Component Object Model and Distributed COM']","['T1021.003', 'T1175']"
+303,https://capec.mitre.org/data/definitions/556.html,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Change Default File Association', 'Change Default File Association']","['T1042', 'T1546.001']"
+304,https://support.microsoft.com/en-us/help/18539/windows-7-change-default-programs,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Change Default File Association', 'Change Default File Association']","['T1042', 'T1546.001']"
+305,http://msdn.microsoft.com/en-us/library/bb166549.aspx,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Change Default File Association', 'Change Default File Association']","['T1042', 'T1546.001']"
+306,https://docs.microsoft.com/windows-server/administration/windows-commands/assoc,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Change Default File Association', 'Change Default File Association']","['T1042', 'T1546.001']"
+307,https://support.microsoft.com/en-us/kb/249873,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvr32', 'Regsvr32']","['T1117', 'T1218.010']"
+308,https://lolbas-project.github.io/lolbas/Binaries/Regsvr32/,['enterprise-attack'],"['defense-evasion', 'execution']","['Regsvr32', 'Regsvr32']","['T1117', 'T1218.010']"
+309,https://capec.mitre.org/data/definitions/565.html,['enterprise-attack'],['credential-access'],['Password Spraying'],['T1110.003']
+310,https://capec.mitre.org/data/definitions/569.html,['enterprise-attack'],"['collection', 'credential-access']","['Web Portal Capture', 'Input Prompt', 'Input Capture']","['T1056.003', 'T1141', 'T1056']"
+311,https://capec.mitre.org/data/definitions/571.html,['enterprise-attack'],['defense-evasion'],"['Indicator Blocking', 'Indicator Blocking']","['T1054', 'T1562.006']"
+312,https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Backdoor:Win32/Lamin.A,['enterprise-attack'],['defense-evasion'],"['Indicator Blocking', 'Indicator Blocking']","['T1054', 'T1562.006']"
+313,https://docs.microsoft.com/en-us/windows/desktop/etw/consuming-events,['enterprise-attack'],['defense-evasion'],"['Indicator Blocking', 'Indicator Blocking']","['T1054', 'T1562.006']"
+314,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh994565(v%3Dws.11),['enterprise-attack'],['credential-access'],['Cached Domain Credentials'],['T1003.005']
+315,https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/,['enterprise-attack'],['persistence'],['SSH Authorized Keys'],['T1098.004']
+316,https://cloud.google.com/sdk/gcloud/reference/compute/instances/add-metadata,['enterprise-attack'],['persistence'],['SSH Authorized Keys'],['T1098.004']
+317,https://docs.microsoft.com/en-us/rest/api/compute/virtual-machines/update,['enterprise-attack'],['persistence'],['SSH Authorized Keys'],['T1098.004']
+318,https://github.com/f0rb1dd3n/Reptile,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Kernel Modules and Extensions', 'Kernel Modules and Extensions']","['T1215', 'T1547.006']"
+319,https://github.com/m0nad/Diamorphine,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Kernel Modules and Extensions', 'Kernel Modules and Extensions']","['T1215', 'T1547.006']"
+320,https://en.wikipedia.org/wiki/Loadable_kernel_module#Linux,['enterprise-attack'],"['persistence', 'privilege-escalation']","['Kernel Modules and Extensions', 'Kernel Modules and Extensions']","['T1215', 'T1547.006']"
+321,https://docs.microsoft.com/en-us/sql/odbc/odbcconf-exe?view=sql-server-2017,['enterprise-attack'],['defense-evasion'],['Odbcconf'],['T1218.008']
+322,https://lolbas-project.github.io/lolbas/Binaries/Odbcconf/,['enterprise-attack'],['defense-evasion'],['Odbcconf'],['T1218.008']
+323,https://securitytrails.com/blog/google-hacking-techniques,['enterprise-attack'],['reconnaissance'],"['Search Engines', 'Search Open Websites/Domains']","['T1593.002', 'T1593']"
+324,https://www.exploit-db.com/google-hacking-database,['enterprise-attack'],['reconnaissance'],"['Search Engines', 'Search Open Websites/Domains']","['T1593.002', 'T1593']"
+325,https://technet.microsoft.com/library/cc961760.aspx,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']","['LSASS Driver', 'LSASS Driver']","['T1177', 'T1547.008']"
+326,https://technet.microsoft.com/library/dn408187.aspx,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']","['LSASS Driver', 'LSASS Driver']","['T1177', 'T1547.008']"
+327,https://msdn.microsoft.com/library/windows/desktop/ff919712.aspx,['enterprise-attack'],"['execution', 'persistence', 'privilege-escalation']","['LSASS Driver', 'LSASS Driver']","['T1177', 'T1547.008']"
+328,https://capec.mitre.org/data/definitions/634.html,['enterprise-attack'],['collection'],"['Video Capture', 'Audio Capture']","['T1125', 'T1123']"
+329,https://capec.mitre.org/data/definitions/
